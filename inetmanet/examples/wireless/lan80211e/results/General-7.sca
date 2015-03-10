@@ -1,0 +1,17 @@
+version 2
+run General-7-20111202-23:05:14-26032
+attr configname General
+attr datetime 20111202-23:05:14
+attr experiment General
+attr inifile /home/martin/travaux/inrs/simulator/inetmanet/examples/wireless/lan80211e/omnetpp.ini
+attr iterationvars $0=11
+attr iterationvars2 "$0=11, $repetition=0"
+attr measurement $0=11
+attr network Ecko
+attr processid 26032
+attr repetition 0
+attr replication #0
+attr resultdir results
+attr runnumber 7
+attr seedset 7
+

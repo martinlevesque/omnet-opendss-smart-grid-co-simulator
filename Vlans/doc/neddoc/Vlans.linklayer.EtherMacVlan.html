@@ -1,0 +1,202 @@
+<html>
+   <head>
+      <link rel="stylesheet" type="text/css" href="style.css" />
+   </head>
+   <body onload="">
+<h2 class="comptitle">Simple Module <i>EtherMacVlan</i></h2>
+<b>Package:</b> Vlans.linklayer<br/><b>File: <a href="src-linklayer-EtherMacVlan.ned.html">src/linklayer/EtherMacVlan.ned</a></b><br/><p><a href="../doxy/classEtherMacVlan.html" target="mainframe"><b>C++ definition</b></a></p>
+
+<p>TODO auto-generated module</p>
+<img src="Vlans.linklayer.EtherMacVlan-type.png" ismap="yes" usemap="#type-diagram"/><map name="type-diagram">
+<area shape="rect" href="Vlans.linklayer.EtherMacVlan.html" title="EtherMacVlan" alt="EtherMacVlan" coords="0,0,130,40">
+</map>
+<h3 class="subtitle">Usage diagram:</h3>
+<p>The following diagram shows usage relationships between types.
+Unresolved types are missing from the diagram.
+<img src="Vlans.linklayer.EtherMacVlan-usage.png" ismap="yes" usemap="#usage-diagram"/><map name="usage-diagram"><area shape="rect" href="Vlans.linklayer.EtherMacVlan.html" title="Simple Module EtherMacVlan" alt="" coords="17,80,121,107">
+<area shape="rect" href="Vlans.linklayer.EtherVlanInterface.html" title="Compound Module EtherVlanInterface" alt="" coords="5,5,133,32">
+</map>
+<h3 class="subtitle">Inheritance diagram:</h3>
+<p>The following diagram shows inheritance relationships for this type.
+Unresolved types are missing from the diagram.
+<img src="Vlans.linklayer.EtherMacVlan-inheritance.png" ismap="yes" usemap="#inheritance-diagram"/><map name="inheritance-diagram"><area shape="rect" href="Vlans.linklayer.EtherMacVlan.html" title="Simple Module EtherMacVlan" alt="" coords="5,5,109,32">
+</map>
+<h3 class="subtitle">Used in compound modules:</h3>
+<p>If a module type shows up more than once, that means it has been defined in more than one NED file.</p>
+<table>
+<tr>
+   <td>
+      <a href="Vlans.linklayer.EtherVlanInterface.html">EtherVlanInterface</a>
+      <i> (compound&nbsp;module)</i>
+   </td>
+   <td>
+
+<p>TODO auto-generated module</p>
+   </td>
+</tr>
+</table>
+<h3 class="subtitle">Parameters:</h3>
+<table class="paramtable">
+   <tr>
+      <th>Name</th>
+      <th>Type</th>
+      <th>Default value</th>
+      <th>Description</th>
+   </tr>
+<tr class="local">
+   <td width="150">promiscuous</td>
+   <td width="100">
+      <i>bool</i>
+   </td>
+   <td width="120">true</td>
+   <td>
+<p>ALWAYS TRUE... LLC Will take care...</p>
+   </td>
+</tr>
+<tr class="local">
+   <td width="150">address</td>
+   <td width="100">
+      <i>string</i>
+   </td>
+   <td width="120">"auto"</td>
+   <td>
+<p>MAC address as hex string (12 hex digits), or
+"auto". "auto" values will be replaced by
+a generated MAC address in init stage 0.</p>
+   </td>
+</tr>
+<tr class="local">
+   <td width="150">txrate</td>
+   <td width="100">
+      <i>double</i>
+   </td>
+   <td width="120">100Mbps</td>
+   <td>
+<p>maximum data rate supported by this station (bit/s);
+actually chosen speed may be lower due to auto-
+configuration. 0 means fully auto-configured.</p>
+   </td>
+</tr>
+<tr class="local">
+   <td width="150">duplexEnabled</td>
+   <td width="100">
+      <i>bool</i>
+   </td>
+   <td width="120">true</td>
+   <td>
+<p>whether duplex mode can be enabled or not; whether
+MAC will actually use duplex mode depends on the result
+of the auto-configuration process (duplex is only
+possible with DTE-to-DTE connection).</p>
+   </td>
+</tr>
+<tr class="local">
+   <td width="150">txQueueLimit</td>
+   <td width="100">
+      <i>int</i>
+   </td>
+   <td width="120">1000</td>
+   <td>
+<p>maximum number of frames queued up for transmission;
+additional frames are dropped. Only used if queueModule==""</p>
+   </td>
+</tr>
+<tr class="local">
+   <td width="150">queueModule</td>
+   <td width="100">
+      <i>string</i>
+   </td>
+   <td width="120">""</td>
+   <td>
+<p>name of optional external queue module</p>
+   </td>
+</tr>
+<tr class="local">
+   <td width="150">mtu</td>
+   <td width="100">
+      <i>int</i>
+   </td>
+   <td width="120">1500</td>
+   <td>
+   </td>
+</tr>
+</table>
+<h3 class="subtitle">Properties:</h3>
+<table class="paramtable">
+   <tr>
+      <th>Name</th>
+      <th>Value</th>
+      <th>Description</th>
+   </tr>
+<tr>
+   <td width="150">display</td>
+   <td width="100"><i>i=block/rxtx</i></td>
+   <td>
+</td>
+</tr>
+</table>
+<h3 class="subtitle">Gates:</h3>
+<table class="paramtable">
+   <tr>
+      <th>Name</th>
+      <th>Direction</th>
+      <th>Size</th>
+      <th>Description</th>
+   </tr>
+<tr class="local">
+   <td width="150">upperLayerIn</xsl:if></td>
+   <td width="100"><i>input</i></td>
+   <td width="50"></td>   <td>
+<p>to EtherLLC or MACRelayUnitPP</p>
+</td>
+</tr>
+<tr class="local">
+   <td width="150">upperLayerOut</xsl:if></td>
+   <td width="100"><i>output</i></td>
+   <td width="50"></td>   <td>
+<p>to EtherLLC or MACRelayUnitPP</p>
+</td>
+</tr>
+<tr class="local">
+   <td width="150">phys</xsl:if></td>
+   <td width="100"><i>inout</i></td>
+   <td width="50"></td>   <td>
+<p>to physical layer or the network</p>
+</td>
+</tr>
+</table>
+<h3 class="subtitle">Source code:</h3>
+<pre class="src"><span style="color: #808080; font-style: italic; ">//
+// TODO auto-generated module
+//
+</span><span style="color: #800000; font-weight: bold; ">simple</span><span style="color: #000000; "> </span><span style="color: #000000; ">EtherMacVlan</span><span style="color: #000000; ">
+{
+    </span><span style="color: #800000; font-weight: bold; ">parameters</span><span style="color: #000000; ">:
+
+        </span><span style="color: #000000; font-weight: bold; ">@display</span><span style="color: #000000; ">(</span><span style="color: #008000; ">&quot;i=block/rxtx&quot;</span><span style="color: #000000; ">);
+
+        </span><span style="color: #000080; font-weight: bold; ">bool</span><span style="color: #000000; "> </span><span style="color: #000000; ">promiscuous</span><span style="color: #000000; "> = </span><span style="color: #800000; font-weight: bold; ">default</span><span style="color: #000000; ">(</span><span style="color: #008000; ">true</span><span style="color: #000000; ">); </span><span style="color: #808080; font-style: italic; ">// ALWAYS TRUE... LLC Will take care...
+</span><span style="color: #000000; ">        </span><span style="color: #000080; font-weight: bold; ">string</span><span style="color: #000000; "> </span><span style="color: #000000; ">address</span><span style="color: #000000; "> = </span><span style="color: #800000; font-weight: bold; ">default</span><span style="color: #000000; ">(</span><span style="color: #008000; ">&quot;auto&quot;</span><span style="color: #000000; ">);  </span><span style="color: #808080; font-style: italic; ">// MAC address as hex string (12 hex digits), or
+</span><span style="color: #000000; ">                                </span><span style="color: #808080; font-style: italic; ">// &quot;auto&quot;. &quot;auto&quot; values will be replaced by
+</span><span style="color: #000000; ">                                </span><span style="color: #808080; font-style: italic; ">// a generated MAC address in init stage 0.
+</span><span style="color: #000000; ">        </span><span style="color: #000080; font-weight: bold; ">double</span><span style="color: #000000; "> </span><span style="color: #000000; ">txrate</span><span style="color: #000000; "> </span><span style="color: #000000; font-weight: bold; ">@unit</span><span style="color: #000000; ">(</span><span style="color: #008000; ">&quot;bps&quot;</span><span style="color: #000000; ">) = </span><span style="color: #800000; font-weight: bold; ">default</span><span style="color: #000000; ">(</span><span style="color: #008000; ">100</span><span style="color: #000000; ">Mbps</span><span style="color: #000000; ">); </span><span style="color: #808080; font-style: italic; ">// maximum data rate supported by this station (bit/s);
+</span><span style="color: #000000; ">                                </span><span style="color: #808080; font-style: italic; ">// actually chosen speed may be lower due to auto-
+</span><span style="color: #000000; ">                                </span><span style="color: #808080; font-style: italic; ">// configuration. 0 means fully auto-configured.
+</span><span style="color: #000000; ">        </span><span style="color: #000080; font-weight: bold; ">bool</span><span style="color: #000000; "> </span><span style="color: #000000; ">duplexEnabled</span><span style="color: #000000; "> = </span><span style="color: #800000; font-weight: bold; ">default</span><span style="color: #000000; ">(</span><span style="color: #008000; ">true</span><span style="color: #000000; ">);   </span><span style="color: #808080; font-style: italic; ">// whether duplex mode can be enabled or not; whether
+</span><span style="color: #000000; ">                                </span><span style="color: #808080; font-style: italic; ">// MAC will actually use duplex mode depends on the result
+</span><span style="color: #000000; ">                                </span><span style="color: #808080; font-style: italic; ">// of the auto-configuration process (duplex is only
+</span><span style="color: #000000; ">                                </span><span style="color: #808080; font-style: italic; ">// possible with DTE-to-DTE connection).
+</span><span style="color: #000000; ">        </span><span style="color: #000080; font-weight: bold; ">int</span><span style="color: #000000; "> </span><span style="color: #000000; ">txQueueLimit</span><span style="color: #000000; "> = </span><span style="color: #800000; font-weight: bold; ">default</span><span style="color: #000000; ">(</span><span style="color: #008000; ">1000</span><span style="color: #000000; ">); </span><span style="color: #808080; font-style: italic; ">// maximum number of frames queued up for transmission;
+</span><span style="color: #000000; ">                                </span><span style="color: #808080; font-style: italic; ">// additional frames are dropped. Only used if queueModule==&quot;&quot;
+</span><span style="color: #000000; ">        </span><span style="color: #000080; font-weight: bold; ">string</span><span style="color: #000000; "> </span><span style="color: #000000; ">queueModule</span><span style="color: #000000; "> = </span><span style="color: #800000; font-weight: bold; ">default</span><span style="color: #000000; ">(</span><span style="color: #008000; ">&quot;&quot;</span><span style="color: #000000; ">);    </span><span style="color: #808080; font-style: italic; ">// name of optional external queue module
+</span><span style="color: #000000; ">        </span><span style="color: #000080; font-weight: bold; ">int</span><span style="color: #000000; "> </span><span style="color: #000000; ">mtu</span><span style="color: #000000; "> = </span><span style="color: #800000; font-weight: bold; ">default</span><span style="color: #000000; ">(</span><span style="color: #008000; ">1500</span><span style="color: #000000; ">);
+
+    </span><span style="color: #800000; font-weight: bold; ">gates</span><span style="color: #000000; ">:
+        </span><span style="color: #000080; font-weight: bold; ">input</span><span style="color: #000000; "> </span><span style="color: #000000; ">upperLayerIn</span><span style="color: #000000; ">;    </span><span style="color: #808080; font-style: italic; ">// to EtherLLC or MACRelayUnitPP
+</span><span style="color: #000000; ">        </span><span style="color: #000080; font-weight: bold; ">output</span><span style="color: #000000; "> </span><span style="color: #000000; ">upperLayerOut</span><span style="color: #000000; ">;  </span><span style="color: #808080; font-style: italic; ">// to EtherLLC or MACRelayUnitPP
+</span><span style="color: #000000; ">        </span><span style="color: #000080; font-weight: bold; ">inout</span><span style="color: #000000; "> </span><span style="color: #000000; ">phys</span><span style="color: #000000; "> </span><span style="color: #000000; font-weight: bold; ">@labels</span><span style="color: #000000; ">(</span><span style="color: #000000; ">ether</span><span style="color: #000000; ">); </span><span style="color: #808080; font-style: italic; ">// to physical layer or the network
+</span><span style="color: #000000; ">}
+</span></pre>
+   <hr><p class="footer"><a href="http://creativecommons.org/licenses/by-sa/3.0" target="_top"><img src="by-sa.png"></a> This documentation is released under the <a href="http://creativecommons.org/licenses/by-sa/3.0" target="_top">Creative Commons license</a></p>
+   </body>
+</html>

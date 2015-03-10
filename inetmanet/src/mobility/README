@@ -1,0 +1,6 @@
+Readme INET/Isabel/Mobility
+
+StaticMobility: Mobility module which leaves nodes at their starting positions
+
+StaticPlaceMobility: Mobility model which places all hosts at constant distances
+    within the simulation area (resulting in a regular grid)

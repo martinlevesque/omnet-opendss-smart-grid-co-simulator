@@ -1,0 +1,5 @@
+<buildspec version="4.0">
+<dir makemake-options="--deep --nolink -O out --meta:recurse --meta:auto-include-path --meta:export-library --meta:use-exported-libs" path="shared" type="makemake"/>
+<dir makemake-options="--make-so --meta:recurse --meta:export-library" path="." type="makemake"/>
+<dir makemake-options="--deep --meta:recurse --meta:auto-include-path --meta:export-library --meta:use-exported-libs" path="src" type="makemake"/>
+</buildspec>

@@ -1,0 +1,92 @@
+<html>
+   <head>
+      <link rel="stylesheet" type="text/css" href="style.css" />
+   </head>
+   <body onload="">
+<h2 class="comptitle">Packet <i>EthernetDot1QFrame</i></h2>
+<b>File: <a href="src-linklayer-EtherFrameVlans.msg.html">src/linklayer/EtherFrameVlans.msg</a></b><br/><p>(no description)</p><h3 class="subtitle">Usage diagram:</h3>
+<p>The following diagram shows usage relationships between types.
+Unresolved types are missing from the diagram.
+<img src="EthernetDot1QFrame-usage.png" ismap="yes" usemap="#usage-diagram"/><map name="usage-diagram"><area shape="rect" href="EthernetDot1QFrame.html" title="Packet EthernetDot1QFrame" alt="" coords="5,5,149,32">
+</map>
+<h3 class="subtitle">Inheritance diagram:</h3>
+<p>The following diagram shows inheritance relationships for this type.
+Unresolved types are missing from the diagram.
+<img src="EthernetDot1QFrame-inheritance.png" ismap="yes" usemap="#inheritance-diagram"/><map name="inheritance-diagram"><area shape="rect" href="EthernetDot1QFrame.html" title="Packet EthernetDot1QFrame" alt="" coords="5,80,149,107">
+<area shape="rect" href="../../../inetmanet/doc/neddoc/EtherFrame.html" title="Packet EtherFrame" alt="" coords="33,5,121,32">
+</map>
+<h3 class="subtitle">Extends:</h3>
+<table>
+<tr>
+   <td>
+      <a href="../../../inetmanet/doc/neddoc/EtherFrame.html">EtherFrame</a>
+      <i> (packet)</i>
+   </td>
+   <td>
+
+<p>Common base class for classes representing Ethernet II and 802.3 frame types,
+containing their common header fields.</p>
+   </td>
+</tr>
+</table>
+<h3 class="subtitle">Fields:</h3>
+<table class="paramtable">
+   <tr>
+      <th>Name</th>
+      <th>Type</th>
+      <th>Description</th>
+   </tr>
+<tr class="local">
+   <td width="150">vlanType</td>
+   <td width="100">
+      <i>
+uint16_t</i>
+   </td>
+   <td></td>
+</tr>
+<tr class="inherited">
+   <td width="150">dest</td>
+   <td width="100">
+      <i>
+MACAddress</i>
+   </td>
+   <td></td>
+</tr>
+<tr class="local">
+   <td width="150">etherType</td>
+   <td width="100">
+      <i>
+uint16_t</i>
+   </td>
+   <td></td>
+</tr>
+<tr class="inherited">
+   <td width="150">src</td>
+   <td width="100">
+      <i>
+MACAddress</i>
+   </td>
+   <td>
+<p>MessageId id; -- uncomment for tracing frames</p>
+</td>
+</tr>
+<tr class="local">
+   <td width="150">vlanID</td>
+   <td width="100">
+      <i>
+uint16_t</i>
+   </td>
+   <td></td>
+</tr>
+</table>
+<h3 class="subtitle">Source code:</h3>
+<pre class="src"><span style="color: #800000; font-weight: bold; ">packet</span><span style="color: #000000; "> </span><span style="color: #000000; ">EthernetDot1QFrame</span><span style="color: #000000; "> </span><span style="color: #800000; font-weight: bold; ">extends</span><span style="color: #000000; "> </span><span style="color: #000000; ">EtherFrame</span><span style="color: #000000; ">
+{
+    </span><span style="color: #000000; ">uint16_t</span><span style="color: #000000; "> </span><span style="color: #000000; ">vlanType</span><span style="color: #000000; ">;
+    </span><span style="color: #000000; ">uint16_t</span><span style="color: #000000; "> </span><span style="color: #000000; ">vlanID</span><span style="color: #000000; ">;
+    </span><span style="color: #000000; ">uint16_t</span><span style="color: #000000; "> </span><span style="color: #000000; ">etherType</span><span style="color: #000000; ">;
+}
+</span></pre>
+   <hr><p class="footer"><a href="http://creativecommons.org/licenses/by-sa/3.0" target="_top"><img src="by-sa.png"></a> This documentation is released under the <a href="http://creativecommons.org/licenses/by-sa/3.0" target="_top">Creative Commons license</a></p>
+   </body>
+</html>

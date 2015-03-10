@@ -1,0 +1,45 @@
+all: checkmakefiles
+	cd src && $(MAKE) -f Makefile.vc
+
+clean: checkmakefiles
+	cd src && $(MAKE) -f Makefile.vc clean
+
+cleanall: checkmakefiles
+	cd src && $(MAKE) -f Makefile.vc MODE=release clean
+	cd src && $(MAKE) -f Makefile.vc MODE=debug clean
+
+makefiles:
+	cd src && call opp_nmakemake -f --deep -X underTest --make-so -o inet -O out 
+
+makefiles_exe:
+	cd src && call opp_nmakemake -f --deep -X underTest -o inet -O out
+ 
+makefilesWimax:
+	cd src && call opp_nmakemake -f --deep -X underTest/applications/Ieee802154TestApp -X underTest/linklayer/ieee802154 -X underTest/wpan --make-so -o inet -O out 
+ 
+makefiles_exeWimax:
+	cd src && call opp_nmakemake -f --deep -X underTest/applications/Ieee802154TestApp -X underTest/linklayer/ieee802154 -X underTest/wpan -o inet -O out 
+ 
+makeall:
+	cd src && call opp_nmakemake -f --deep --make-so -o inet -O out 
+ 
+makeall_exe:
+	cd src && call opp_nmakemake -f --deep -o inet -O out 
+
+
+checkmakefiles:
+	@if not exist src\Makefile.vc ( \
+	echo. && \
+	echo ============================================================================ && \
+	echo src/Makefile.vc does not exist. Please use the following command to generate it: && \
+	echo nmake -f Makefile.vc makefiles && \
+	echo ============================================================================ && \
+	echo. && \
+	exit 1 )
+
+doxy:
+	doxygen doxy.cfg
+
+tcptut:
+	cd doc\src\tcp && $(MAKE) -f Makefile.vc
+

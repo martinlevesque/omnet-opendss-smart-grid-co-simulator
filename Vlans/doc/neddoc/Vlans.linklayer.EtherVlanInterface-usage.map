@@ -1,0 +1,6 @@
+<area shape="rect" href="Vlans.linklayer.EtherVlanInterface.html" title="Compound Module EtherVlanInterface" alt="" coords="177,80,305,107">
+<area shape="rect" href="ned.IdealChannel.html" title="Channel IdealChannel" alt="" coords="5,155,101,181">
+<area shape="rect" href="../../../inetmanet/doc/neddoc/inet.networklayer.queue.OutputQueue.html" title="Module Interface OutputQueue" alt="" coords="125,155,224,181">
+<area shape="rect" href="Vlans.linklayer.EtherEncapVlans.html" title="Simple Module EtherEncapVlans" alt="" coords="248,155,371,181">
+<area shape="rect" href="Vlans.linklayer.EtherMacVlan.html" title="Simple Module EtherMacVlan" alt="" coords="395,155,499,181">
+<area shape="rect" href="Vlans.nodes.StandardVlanHost.html" title="Compound Module StandardVlanHost" alt="" coords="179,5,304,32">

@@ -1,0 +1,2443 @@
+version 2
+run General-0-20130308-17:34:23-22652
+attr configname General
+attr datetime 20130308-17:34:23
+attr experiment General
+attr inifile /home/intissar/intissar/omnetpp-4.1/samples/FiWimodified/simulations/PEVResidentialOnly.ini
+attr iterationvars ""
+attr iterationvars2 $repetition=0
+attr measurement ""
+attr network PEVResidentialOnly
+attr processid 22652
+attr repetition 0
+attr replication #0
+attr resultdir results
+attr runnumber 0
+attr seedset 0
+
+scalar PEVResidentialOnly.host1.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.host1.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.host1.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.host1.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.host1.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.host1.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.epon_olt.mac 	"rx channel idle (%)" 	100
+scalar PEVResidentialOnly.epon_olt.mac 	"rx channel utilization (%)" 	0
+scalar PEVResidentialOnly.epon_olt.mac 	"rx channel collision (%)" 	0
+scalar PEVResidentialOnly.epon_olt.mac 	collisions 	0
+scalar PEVResidentialOnly.epon_olt.mac 	backoffs 	0
+scalar PEVResidentialOnly.dms.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.dms.cli 	"packets rcvd" 	2967
+scalar PEVResidentialOnly.dms.cli 	"end-to-end delay mean" 	0.00062722966563701
+scalar PEVResidentialOnly.dms.cli 	"end-to-end delay stddev" 	9.3308731793081e-05
+scalar PEVResidentialOnly.dms.cli 	"end-to-end delay min" 	0.000404138339
+scalar PEVResidentialOnly.dms.cli 	"end-to-end delay max" 	0.001287157791
+scalar PEVResidentialOnly.host2.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.host2.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.host2.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.host2.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.host2.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.host2.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.pon_Splitter 	"simulated time" 	10.659838886376
+scalar PEVResidentialOnly.pon_Splitter 	"messages handled" 	2995
+scalar PEVResidentialOnly.pon_Splitter 	messages/sec 	280.96109443341
+scalar PEVResidentialOnly.host6.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.host6.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.host6.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.host6.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.host6.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.host6.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.host8.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.host8.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.host8.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.host8.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.host8.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.host8.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.host9.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.host9.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.host9.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.host9.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.host9.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.host9.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.host11.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.host11.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.host11.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.host11.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.host11.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.host11.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.epon_onu12.onu_port.onuMacCtl 	"simulated time" 	10.659838886376
+scalar PEVResidentialOnly.epon_onu12.onu_port.onuMacCtl 	"messages handled" 	337
+scalar PEVResidentialOnly.epon_onu12.onu_port.onuMacCtl 	"Dropped Frames From HL" 	0
+scalar PEVResidentialOnly.epon_onu12.onu_port.onuMacCtl 	FragmentedBits 	0
+scalar PEVResidentialOnly.epon_onu12.onu_port.onuMacCtl 	frames/sec 	31.613986251772
+scalar PEVResidentialOnly.epon_onu12.onu_port.onuMacCtl 	drops/sec 	0
+scalar PEVResidentialOnly.epon_onu12.onu_port.onuMacCtl 	FragmentedBits/sec 	0
+scalar PEVResidentialOnly.epon_onu12.mac 	"rx channel idle (%)" 	100
+scalar PEVResidentialOnly.epon_onu12.mac 	"rx channel utilization (%)" 	0
+scalar PEVResidentialOnly.epon_onu12.mac 	"rx channel collision (%)" 	0
+scalar PEVResidentialOnly.epon_onu12.mac 	collisions 	0
+scalar PEVResidentialOnly.epon_onu12.mac 	backoffs 	0
+scalar PEVResidentialOnly.host12.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.host12.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.host12.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.host12.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.host12.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.host12.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.host13.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.host13.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.host13.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.host13.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.host13.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.host13.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.host14.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.host14.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.host14.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.host14.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.host14.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.host14.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.host16.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.host16.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.host16.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.host16.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.host16.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.host16.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV19.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV19.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV19.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV19.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV19.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV19.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV20.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV20.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV20.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV20.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV20.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV20.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV21.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV21.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV21.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV21.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV21.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV21.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV22.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV22.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV22.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV22.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV22.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV22.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV23.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV23.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV23.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV23.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV23.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV23.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV24.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV24.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV24.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV24.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV24.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV24.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV25.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV25.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV25.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV25.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV25.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV25.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV26.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV26.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV26.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV26.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV26.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV26.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV27.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV27.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV27.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV27.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV27.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV27.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV28.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV28.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV28.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV28.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV28.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV28.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV29.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV29.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV29.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV29.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV29.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV29.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV30.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV30.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV30.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV30.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV30.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV30.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV31.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV31.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV31.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV31.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV31.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV31.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV32.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV32.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV32.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV32.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV32.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV32.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV33.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV33.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV33.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV33.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV33.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV33.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV34.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV34.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV34.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV34.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV34.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV34.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV35.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV35.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV35.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV35.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV35.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV35.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV36.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV36.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV36.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV36.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV36.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV36.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.epon_onu17.onu_port.onuMacCtl 	"simulated time" 	10.659838886376
+scalar PEVResidentialOnly.epon_onu17.onu_port.onuMacCtl 	"messages handled" 	331
+scalar PEVResidentialOnly.epon_onu17.onu_port.onuMacCtl 	"Dropped Frames From HL" 	0
+scalar PEVResidentialOnly.epon_onu17.onu_port.onuMacCtl 	FragmentedBits 	0
+scalar PEVResidentialOnly.epon_onu17.onu_port.onuMacCtl 	frames/sec 	31.051125962423
+scalar PEVResidentialOnly.epon_onu17.onu_port.onuMacCtl 	drops/sec 	0
+scalar PEVResidentialOnly.epon_onu17.onu_port.onuMacCtl 	FragmentedBits/sec 	0
+scalar PEVResidentialOnly.epon_onu17.mac 	"rx channel idle (%)" 	100
+scalar PEVResidentialOnly.epon_onu17.mac 	"rx channel utilization (%)" 	0
+scalar PEVResidentialOnly.epon_onu17.mac 	"rx channel collision (%)" 	0
+scalar PEVResidentialOnly.epon_onu17.mac 	collisions 	0
+scalar PEVResidentialOnly.epon_onu17.mac 	backoffs 	0
+scalar PEVResidentialOnly.MPP5.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.MPP5.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.MPP5.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.MPP5.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.MPP5.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.MPP5.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV37.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV37.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV37.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV37.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV37.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV37.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV38.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV38.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV38.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV38.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV38.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV38.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV39.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV39.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV39.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV39.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV39.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV39.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV40.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV40.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV40.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV40.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV40.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV40.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV41.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV41.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV41.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV41.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV41.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV41.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV42.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV42.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV42.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV42.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV42.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV42.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV43.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV43.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV43.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV43.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV43.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV43.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV44.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV44.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV44.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV44.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV44.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV44.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV45.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV45.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV45.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV45.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV45.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV45.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV46.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV46.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV46.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV46.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV46.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV46.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV47.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV47.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV47.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV47.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV47.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV47.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV48.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV48.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV48.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV48.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV48.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV48.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV49.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV49.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV49.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV49.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV49.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV49.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV51.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV51.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV51.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV51.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV51.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV51.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV52.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV52.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV52.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV52.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV52.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV52.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV53.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV53.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV53.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV53.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV53.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV53.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV54.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV54.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV54.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV54.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV54.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV54.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.epon_onu18.onu_port.onuMacCtl 	"simulated time" 	10.659838886376
+scalar PEVResidentialOnly.epon_onu18.onu_port.onuMacCtl 	"messages handled" 	168
+scalar PEVResidentialOnly.epon_onu18.onu_port.onuMacCtl 	"Dropped Frames From HL" 	0
+scalar PEVResidentialOnly.epon_onu18.onu_port.onuMacCtl 	FragmentedBits 	0
+scalar PEVResidentialOnly.epon_onu18.onu_port.onuMacCtl 	frames/sec 	15.760088101774
+scalar PEVResidentialOnly.epon_onu18.onu_port.onuMacCtl 	drops/sec 	0
+scalar PEVResidentialOnly.epon_onu18.onu_port.onuMacCtl 	FragmentedBits/sec 	0
+scalar PEVResidentialOnly.epon_onu18.mac 	"rx channel idle (%)" 	100
+scalar PEVResidentialOnly.epon_onu18.mac 	"rx channel utilization (%)" 	0
+scalar PEVResidentialOnly.epon_onu18.mac 	"rx channel collision (%)" 	0
+scalar PEVResidentialOnly.epon_onu18.mac 	collisions 	0
+scalar PEVResidentialOnly.epon_onu18.mac 	backoffs 	0
+scalar PEVResidentialOnly.host18.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.host18.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.host18.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.host18.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.host18.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.host18.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.MPP6.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.MPP6.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.MPP6.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.MPP6.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.MPP6.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.MPP6.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV55.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV55.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV55.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV55.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV55.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV55.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV56.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV56.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV56.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV56.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV56.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV56.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV57.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV57.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV57.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV57.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV57.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV57.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV58.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV58.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV58.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV58.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV58.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV58.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV59.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV59.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV59.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV59.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV59.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV59.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV60.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV60.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV60.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV60.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV60.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV60.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV61.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV61.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV61.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV61.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV61.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV61.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV62.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV62.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV62.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV62.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV62.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV62.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV63.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV63.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV63.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV63.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV63.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV63.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV64.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV64.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV64.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV64.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV64.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV64.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV65.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV65.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV65.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV65.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV65.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV65.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV66.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV66.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV66.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV66.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV66.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV66.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV67.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV67.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV67.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV67.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV67.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV67.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV69.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV69.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV69.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV69.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV69.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV69.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV70.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV70.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV70.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV70.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV70.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV70.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV71.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV71.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV71.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV71.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV71.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV71.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV72.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV72.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV72.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV72.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV72.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV72.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.epon_onu19.onu_port.onuMacCtl 	"simulated time" 	10.659838886376
+scalar PEVResidentialOnly.epon_onu19.onu_port.onuMacCtl 	"messages handled" 	504
+scalar PEVResidentialOnly.epon_onu19.onu_port.onuMacCtl 	"Dropped Frames From HL" 	0
+scalar PEVResidentialOnly.epon_onu19.onu_port.onuMacCtl 	FragmentedBits 	0
+scalar PEVResidentialOnly.epon_onu19.onu_port.onuMacCtl 	frames/sec 	47.280264305321
+scalar PEVResidentialOnly.epon_onu19.onu_port.onuMacCtl 	drops/sec 	0
+scalar PEVResidentialOnly.epon_onu19.onu_port.onuMacCtl 	FragmentedBits/sec 	0
+scalar PEVResidentialOnly.epon_onu19.mac 	"rx channel idle (%)" 	100
+scalar PEVResidentialOnly.epon_onu19.mac 	"rx channel utilization (%)" 	0
+scalar PEVResidentialOnly.epon_onu19.mac 	"rx channel collision (%)" 	0
+scalar PEVResidentialOnly.epon_onu19.mac 	collisions 	0
+scalar PEVResidentialOnly.epon_onu19.mac 	backoffs 	0
+scalar PEVResidentialOnly.host19.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.host19.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.host19.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.host19.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.host19.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.host19.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.MPP8.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.MPP8.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.MPP8.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.MPP8.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.MPP8.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.MPP8.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV50.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV50.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV50.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV50.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV50.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV50.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV68.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV68.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV68.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV68.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV68.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV68.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV73.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV73.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV73.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV73.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV73.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV73.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV74.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV74.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV74.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV74.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV74.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV74.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV75.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV75.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV75.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV75.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV75.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV75.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV76.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV76.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV76.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV76.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV76.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV76.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV77.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV77.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV77.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV77.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV77.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV77.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV78.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV78.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV78.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV78.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV78.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV78.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV79.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV79.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV79.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV79.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV79.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV79.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV80.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV80.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV80.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV80.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV80.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV80.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV81.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV81.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV81.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV81.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV81.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV81.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV82.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV82.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV82.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV82.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV82.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV82.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV83.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV83.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV83.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV83.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV83.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV83.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV85.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV85.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV85.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV85.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV85.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV85.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV86.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV86.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV86.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV86.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV86.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV86.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV87.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV87.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV87.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV87.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV87.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV87.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV88.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV88.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV88.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV88.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV88.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV88.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.host20.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.host20.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.host20.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.host20.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.host20.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.host20.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV89.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV89.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV89.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV89.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV89.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV89.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV90.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV90.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV90.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV90.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV90.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV90.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV91.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV91.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV91.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV91.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV91.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV91.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV92.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV92.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV92.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV92.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV92.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV92.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV93.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV93.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV93.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV93.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV93.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV93.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV94.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV94.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV94.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV94.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV94.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV94.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV95.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV95.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV95.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV95.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV95.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV95.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV96.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV96.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV96.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV96.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV96.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV96.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV97.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV97.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV97.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV97.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV97.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV97.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV98.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV98.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV98.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV98.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV98.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV98.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV99.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV99.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV99.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV99.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV99.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV99.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV100.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV100.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV100.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV100.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV100.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV100.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV101.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV101.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV101.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV101.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV101.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV101.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV102.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV102.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV102.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV102.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV102.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV102.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV103.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV103.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV103.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV103.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV103.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV103.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV104.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV104.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV104.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV104.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV104.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV104.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV105.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV105.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV105.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV105.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV105.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV105.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV106.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV106.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV106.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV106.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV106.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV106.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.host21.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.host21.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.host21.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.host21.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.host21.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.host21.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV107.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV107.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV107.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV107.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV107.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV107.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV108.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV108.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV108.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV108.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV108.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV108.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV109.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV109.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV109.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV109.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV109.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV109.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV110.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV110.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV110.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV110.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV110.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV110.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV111.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV111.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV111.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV111.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV111.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV111.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV112.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV112.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV112.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV112.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV112.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV112.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV113.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV113.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV113.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV113.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV113.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV113.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV114.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV114.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV114.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV114.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV114.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV114.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV115.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV115.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV115.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV115.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV115.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV115.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV116.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV116.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV116.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV116.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV116.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV116.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV117.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV117.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV117.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV117.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV117.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV117.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV118.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV118.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV118.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV118.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV118.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV118.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV119.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV119.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV119.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV119.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV119.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV119.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV120.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV120.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV120.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV120.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV120.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV120.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV121.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV121.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV121.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV121.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV121.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV121.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV122.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV122.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV122.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV122.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV122.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV122.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV123.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV123.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV123.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV123.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV123.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV123.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV124.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV124.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV124.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV124.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV124.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV124.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.host22.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.host22.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.host22.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.host22.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.host22.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.host22.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV84.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV84.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV84.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV84.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV84.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV84.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV125.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV125.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV125.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV125.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV125.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV125.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV126.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV126.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV126.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV126.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV126.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV126.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV127.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV127.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV127.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV127.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV127.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV127.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV128.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV128.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV128.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV128.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV128.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV128.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV129.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV129.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV129.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV129.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV129.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV129.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV130.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV130.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV130.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV130.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV130.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV130.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV131.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV131.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV131.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV131.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV131.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV131.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV132.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV132.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV132.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV132.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV132.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV132.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV133.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV133.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV133.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV133.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV133.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV133.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV134.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV134.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV134.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV134.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV134.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV134.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV135.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV135.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV135.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV135.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV135.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV135.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV136.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV136.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV136.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV136.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV136.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV136.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV138.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV138.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV138.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV138.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV138.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV138.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV139.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV139.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV139.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV139.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV139.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV139.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV140.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV140.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV140.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV140.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV140.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV140.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV141.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV141.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV141.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV141.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV141.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV141.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.host23.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.host23.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.host23.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.host23.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.host23.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.host23.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV142.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV142.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV142.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV142.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV142.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV142.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV143.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV143.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV143.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV143.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV143.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV143.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV144.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV144.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV144.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV144.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV144.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV144.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV145.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV145.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV145.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV145.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV145.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV145.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV146.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV146.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV146.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV146.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV146.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV146.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV147.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV147.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV147.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV147.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV147.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV147.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV148.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV148.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV148.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV148.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV148.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV148.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV149.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV149.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV149.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV149.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV149.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV149.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV150.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV150.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV150.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV150.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV150.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV150.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV151.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV151.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV151.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV151.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV151.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV151.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV152.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV152.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV152.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV152.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV152.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV152.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV153.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV153.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV153.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV153.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV153.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV153.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV154.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV154.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV154.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV154.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV154.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV154.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV155.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV155.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV155.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV155.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV155.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV155.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV156.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV156.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV156.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV156.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV156.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV156.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV157.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV157.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV157.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV157.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV157.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV157.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV158.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV158.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV158.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV158.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV158.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV158.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV159.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV159.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV159.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV159.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV159.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV159.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.epon_onu24.onu_port.onuMacCtl 	"simulated time" 	10.659838886376
+scalar PEVResidentialOnly.epon_onu24.onu_port.onuMacCtl 	"messages handled" 	497
+scalar PEVResidentialOnly.epon_onu24.onu_port.onuMacCtl 	"Dropped Frames From HL" 	0
+scalar PEVResidentialOnly.epon_onu24.onu_port.onuMacCtl 	FragmentedBits 	0
+scalar PEVResidentialOnly.epon_onu24.onu_port.onuMacCtl 	frames/sec 	46.623593967747
+scalar PEVResidentialOnly.epon_onu24.onu_port.onuMacCtl 	drops/sec 	0
+scalar PEVResidentialOnly.epon_onu24.onu_port.onuMacCtl 	FragmentedBits/sec 	0
+scalar PEVResidentialOnly.epon_onu24.mac 	"rx channel idle (%)" 	100
+scalar PEVResidentialOnly.epon_onu24.mac 	"rx channel utilization (%)" 	0
+scalar PEVResidentialOnly.epon_onu24.mac 	"rx channel collision (%)" 	0
+scalar PEVResidentialOnly.epon_onu24.mac 	collisions 	0
+scalar PEVResidentialOnly.epon_onu24.mac 	backoffs 	0
+scalar PEVResidentialOnly.host24.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.host24.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.host24.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.host24.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.host24.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.host24.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.MPP16.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.MPP16.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.MPP16.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.MPP16.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.MPP16.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.MPP16.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV160.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV160.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV160.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV160.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV160.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV160.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV161.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV161.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV161.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV161.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV161.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV161.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV162.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV162.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV162.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV162.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV162.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV162.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV163.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV163.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV163.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV163.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV163.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV163.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV164.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV164.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV164.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV164.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV164.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV164.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV165.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV165.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV165.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV165.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV165.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV165.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV166.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV166.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV166.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV166.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV166.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV166.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV167.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV167.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV167.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV167.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV167.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV167.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV168.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV168.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV168.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV168.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV168.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV168.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV169.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV169.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV169.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV169.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV169.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV169.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV170.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV170.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV170.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV170.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV170.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV170.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV171.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV171.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV171.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV171.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV171.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV171.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV172.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV172.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV172.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV172.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV172.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV172.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV173.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV173.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV173.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV173.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV173.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV173.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV174.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV174.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV174.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV174.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV174.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV174.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV175.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV175.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV175.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV175.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV175.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV175.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV176.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV176.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV176.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV176.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV176.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV176.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV177.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV177.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV177.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV177.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV177.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV177.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.host25.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.host25.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.host25.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.host25.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.host25.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.host25.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV137.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV137.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV137.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV137.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV137.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV137.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV178.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV178.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV178.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV178.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV178.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV178.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV179.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV179.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV179.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV179.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV179.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV179.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV180.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV180.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV180.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV180.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV180.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV180.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV181.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV181.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV181.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV181.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV181.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV181.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV182.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV182.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV182.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV182.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV182.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV182.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV183.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV183.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV183.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV183.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV183.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV183.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV184.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV184.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV184.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV184.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV184.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV184.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV185.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV185.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV185.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV185.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV185.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV185.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV186.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV186.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV186.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV186.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV186.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV186.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV187.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV187.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV187.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV187.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV187.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV187.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV188.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV188.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV188.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV188.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV188.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV188.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV189.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV189.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV189.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV189.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV189.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV189.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV190.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV190.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV190.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV190.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV190.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV190.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV191.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV191.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV191.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV191.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV191.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV191.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV192.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV192.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV192.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV192.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV192.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV192.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV193.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV193.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV193.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV193.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV193.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV193.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV194.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV194.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV194.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV194.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV194.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV194.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.epon_onu26.onu_port.onuMacCtl 	"simulated time" 	10.659838886376
+scalar PEVResidentialOnly.epon_onu26.onu_port.onuMacCtl 	"messages handled" 	169
+scalar PEVResidentialOnly.epon_onu26.onu_port.onuMacCtl 	"Dropped Frames From HL" 	0
+scalar PEVResidentialOnly.epon_onu26.onu_port.onuMacCtl 	FragmentedBits 	0
+scalar PEVResidentialOnly.epon_onu26.onu_port.onuMacCtl 	frames/sec 	15.853898149999
+scalar PEVResidentialOnly.epon_onu26.onu_port.onuMacCtl 	drops/sec 	0
+scalar PEVResidentialOnly.epon_onu26.onu_port.onuMacCtl 	FragmentedBits/sec 	0
+scalar PEVResidentialOnly.epon_onu26.mac 	"rx channel idle (%)" 	100
+scalar PEVResidentialOnly.epon_onu26.mac 	"rx channel utilization (%)" 	0
+scalar PEVResidentialOnly.epon_onu26.mac 	"rx channel collision (%)" 	0
+scalar PEVResidentialOnly.epon_onu26.mac 	collisions 	0
+scalar PEVResidentialOnly.epon_onu26.mac 	backoffs 	0
+scalar PEVResidentialOnly.host26.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.host26.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.host26.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.host26.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.host26.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.host26.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.MPP18.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.MPP18.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.MPP18.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.MPP18.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.MPP18.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.MPP18.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV195.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV195.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV195.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV195.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV195.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV195.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV196.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV196.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV196.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV196.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV196.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV196.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV197.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV197.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV197.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV197.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV197.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV197.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV198.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV198.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV198.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV198.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV198.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV198.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV199.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV199.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV199.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV199.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV199.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV199.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV200.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV200.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV200.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV200.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV200.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV200.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV201.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV201.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV201.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV201.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV201.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV201.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV202.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV202.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV202.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV202.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV202.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV202.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV203.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV203.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV203.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV203.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV203.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV203.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV204.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV204.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV204.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV204.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV204.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV204.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV205.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV205.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV205.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV205.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV205.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV205.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV206.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV206.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV206.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV206.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV206.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV206.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV207.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV207.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV207.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV207.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV207.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV207.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV209.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV209.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV209.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV209.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV209.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV209.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV210.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV210.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV210.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV210.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV210.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV210.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV211.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV211.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV211.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV211.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV211.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV211.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV212.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV212.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV212.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV212.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV212.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV212.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.epon_onu27.onu_port.onuMacCtl 	"simulated time" 	10.659838886376
+scalar PEVResidentialOnly.epon_onu27.onu_port.onuMacCtl 	"messages handled" 	166
+scalar PEVResidentialOnly.epon_onu27.onu_port.onuMacCtl 	"Dropped Frames From HL" 	0
+scalar PEVResidentialOnly.epon_onu27.onu_port.onuMacCtl 	FragmentedBits 	0
+scalar PEVResidentialOnly.epon_onu27.onu_port.onuMacCtl 	frames/sec 	15.572468005324
+scalar PEVResidentialOnly.epon_onu27.onu_port.onuMacCtl 	drops/sec 	0
+scalar PEVResidentialOnly.epon_onu27.onu_port.onuMacCtl 	FragmentedBits/sec 	0
+scalar PEVResidentialOnly.epon_onu27.mac 	"rx channel idle (%)" 	100
+scalar PEVResidentialOnly.epon_onu27.mac 	"rx channel utilization (%)" 	0
+scalar PEVResidentialOnly.epon_onu27.mac 	"rx channel collision (%)" 	0
+scalar PEVResidentialOnly.epon_onu27.mac 	collisions 	0
+scalar PEVResidentialOnly.epon_onu27.mac 	backoffs 	0
+scalar PEVResidentialOnly.host27.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.host27.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.host27.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.host27.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.host27.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.host27.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.MPP20.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.MPP20.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.MPP20.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.MPP20.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.MPP20.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.MPP20.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV208.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV208.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV208.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV208.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV208.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV208.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV213.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV213.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV213.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV213.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV213.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV213.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV214.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV214.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV214.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV214.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV214.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV214.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV215.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV215.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV215.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV215.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV215.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV215.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV216.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV216.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV216.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV216.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV216.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV216.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV217.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV217.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV217.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV217.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV217.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV217.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV218.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV218.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV218.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV218.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV218.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV218.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV219.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV219.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV219.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV219.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV219.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV219.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV220.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV220.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV220.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV220.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV220.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV220.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV221.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV221.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV221.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV221.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV221.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV221.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV222.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV222.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV222.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV222.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV222.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV222.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV223.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV223.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV223.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV223.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV223.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV223.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV224.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV224.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV224.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV224.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV224.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV224.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV226.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV226.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV226.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV226.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV226.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV226.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV227.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV227.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV227.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV227.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV227.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV227.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV228.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV228.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV228.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV228.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV228.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV228.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV229.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV229.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV229.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV229.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV229.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV229.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.host28.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.host28.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.host28.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.host28.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.host28.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.host28.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV225.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV225.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV225.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV225.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV225.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV225.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV230.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV230.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV230.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV230.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV230.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV230.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV231.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV231.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV231.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV231.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV231.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV231.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV232.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV232.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV232.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV232.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV232.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV232.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV233.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV233.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV233.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV233.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV233.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV233.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV234.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV234.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV234.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV234.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV234.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV234.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV235.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV235.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV235.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV235.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV235.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV235.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV236.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV236.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV236.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV236.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV236.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV236.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV237.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV237.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV237.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV237.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV237.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV237.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV238.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV238.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV238.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV238.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV238.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV238.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV239.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV239.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV239.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV239.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV239.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV239.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV240.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV240.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV240.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV240.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV240.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV240.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV241.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV241.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV241.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV241.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV241.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV241.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV243.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV243.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV243.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV243.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV243.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV243.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV244.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV244.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV244.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV244.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV244.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV244.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV245.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV245.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV245.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV245.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV245.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV245.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV246.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV246.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV246.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV246.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV246.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV246.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.host29.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.host29.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.host29.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.host29.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.host29.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.host29.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.MPP25.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.MPP25.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.MPP25.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.MPP25.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.MPP25.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.MPP25.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV247.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV247.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV247.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV247.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV247.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV247.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV248.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV248.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV248.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV248.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV248.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV248.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV249.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV249.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV249.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV249.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV249.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV249.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV250.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV250.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV250.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV250.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV250.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV250.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV251.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV251.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV251.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV251.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV251.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV251.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV252.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV252.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV252.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV252.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV252.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV252.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV253.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV253.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV253.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV253.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV253.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV253.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV254.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV254.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV254.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV254.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV254.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV254.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV255.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV255.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV255.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV255.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV255.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV255.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV256.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV256.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV256.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV256.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV256.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV256.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV257.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV257.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV257.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV257.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV257.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV257.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV258.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV258.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV258.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV258.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV258.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV258.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV259.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV259.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV259.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV259.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV259.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV259.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV260.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV260.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV260.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV260.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV260.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV260.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV261.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV261.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV261.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV261.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV261.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV261.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV262.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV262.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV262.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV262.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV262.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV262.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV263.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV263.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV263.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV263.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV263.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV263.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV264.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV264.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV264.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV264.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV264.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV264.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.epon_onu30.onu_port.onuMacCtl 	"simulated time" 	10.659838886376
+scalar PEVResidentialOnly.epon_onu30.onu_port.onuMacCtl 	"messages handled" 	330
+scalar PEVResidentialOnly.epon_onu30.onu_port.onuMacCtl 	"Dropped Frames From HL" 	0
+scalar PEVResidentialOnly.epon_onu30.onu_port.onuMacCtl 	FragmentedBits 	0
+scalar PEVResidentialOnly.epon_onu30.onu_port.onuMacCtl 	frames/sec 	30.957315914199
+scalar PEVResidentialOnly.epon_onu30.onu_port.onuMacCtl 	drops/sec 	0
+scalar PEVResidentialOnly.epon_onu30.onu_port.onuMacCtl 	FragmentedBits/sec 	0
+scalar PEVResidentialOnly.epon_onu30.mac 	"rx channel idle (%)" 	100
+scalar PEVResidentialOnly.epon_onu30.mac 	"rx channel utilization (%)" 	0
+scalar PEVResidentialOnly.epon_onu30.mac 	"rx channel collision (%)" 	0
+scalar PEVResidentialOnly.epon_onu30.mac 	collisions 	0
+scalar PEVResidentialOnly.epon_onu30.mac 	backoffs 	0
+scalar PEVResidentialOnly.host30.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.host30.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.host30.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.host30.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.host30.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.host30.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.MPP23.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.MPP23.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.MPP23.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.MPP23.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.MPP23.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.MPP23.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV242.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV242.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV242.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV242.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV242.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV242.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV265.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV265.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV265.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV265.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV265.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV265.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV266.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV266.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV266.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV266.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV266.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV266.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV267.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV267.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV267.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV267.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV267.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV267.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV268.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV268.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV268.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV268.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV268.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV268.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV269.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV269.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV269.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV269.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV269.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV269.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV270.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV270.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV270.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV270.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV270.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV270.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV271.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV271.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV271.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV271.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV271.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV271.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV272.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV272.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV272.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV272.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV272.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV272.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV273.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV273.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV273.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV273.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV273.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV273.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV274.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV274.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV274.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV274.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV274.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV274.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV275.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV275.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV275.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV275.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV275.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV275.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV276.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV276.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV276.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV276.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV276.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV276.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV277.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV277.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV277.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV277.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV277.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV277.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV278.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV278.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV278.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV278.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV278.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV278.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV279.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV279.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV279.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV279.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV279.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV279.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV280.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV280.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV280.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV280.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV280.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV280.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV281.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV281.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV281.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV281.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV281.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV281.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.host31.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.host31.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.host31.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.host31.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.host31.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.host31.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV282.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV282.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV282.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV282.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV282.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV282.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV283.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV283.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV283.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV283.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV283.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV283.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV284.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV284.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV284.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV284.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV284.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV284.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV285.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV285.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV285.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV285.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV285.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV285.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV286.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV286.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV286.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV286.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV286.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV286.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV287.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV287.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV287.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV287.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV287.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV287.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV288.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV288.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV288.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV288.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV288.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV288.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV289.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV289.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV289.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV289.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV289.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV289.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV290.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV290.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV290.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV290.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV290.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV290.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV291.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV291.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV291.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV291.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV291.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV291.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV292.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV292.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV292.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV292.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV292.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV292.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV293.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV293.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV293.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV293.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV293.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV293.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV294.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV294.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV294.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV294.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV294.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV294.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV296.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV296.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV296.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV296.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV296.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV296.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV297.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV297.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV297.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV297.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV297.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV297.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV298.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV298.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV298.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV298.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV298.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV298.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV299.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV299.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV299.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV299.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV299.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV299.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.epon_onu32.onu_port.onuMacCtl 	"simulated time" 	10.659838886376
+scalar PEVResidentialOnly.epon_onu32.onu_port.onuMacCtl 	"messages handled" 	501
+scalar PEVResidentialOnly.epon_onu32.onu_port.onuMacCtl 	"Dropped Frames From HL" 	0
+scalar PEVResidentialOnly.epon_onu32.onu_port.onuMacCtl 	FragmentedBits 	0
+scalar PEVResidentialOnly.epon_onu32.onu_port.onuMacCtl 	frames/sec 	46.998834160647
+scalar PEVResidentialOnly.epon_onu32.onu_port.onuMacCtl 	drops/sec 	0
+scalar PEVResidentialOnly.epon_onu32.onu_port.onuMacCtl 	FragmentedBits/sec 	0
+scalar PEVResidentialOnly.epon_onu32.mac 	"rx channel idle (%)" 	100
+scalar PEVResidentialOnly.epon_onu32.mac 	"rx channel utilization (%)" 	0
+scalar PEVResidentialOnly.epon_onu32.mac 	"rx channel collision (%)" 	0
+scalar PEVResidentialOnly.epon_onu32.mac 	collisions 	0
+scalar PEVResidentialOnly.epon_onu32.mac 	backoffs 	0
+scalar PEVResidentialOnly.host32.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.host32.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.host32.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.host32.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.host32.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.host32.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV300.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV300.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV300.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV300.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV300.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV300.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV301.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV301.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV301.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV301.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV301.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV301.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV302.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV302.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV302.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV302.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV302.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV302.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV303.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV303.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV303.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV303.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV303.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV303.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV304.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV304.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV304.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV304.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV304.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV304.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV305.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV305.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV305.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV305.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV305.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV305.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV306.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV306.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV306.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV306.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV306.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV306.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV307.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV307.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV307.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV307.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV307.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV307.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV308.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV308.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV308.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV308.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV308.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV308.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV309.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV309.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV309.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV309.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV309.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV309.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV310.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV310.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV310.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV310.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV310.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV310.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV311.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV311.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV311.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV311.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV311.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV311.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV312.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV312.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV312.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV312.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV312.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV312.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV313.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV313.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV313.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV313.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV313.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV313.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV314.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV314.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV314.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV314.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV314.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV314.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV315.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV315.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV315.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV315.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV315.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV315.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV316.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV316.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV316.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV316.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV316.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV316.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV317.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV317.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV317.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV317.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV317.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV317.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.host33.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.host33.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.host33.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.host33.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.host33.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.host33.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.MPP29.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.MPP29.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.MPP29.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.MPP29.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.MPP29.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.MPP29.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV318.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV318.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV318.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV318.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV318.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV318.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV319.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV319.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV319.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV319.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV319.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV319.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV320.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV320.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV320.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV320.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV320.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV320.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV321.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV321.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV321.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV321.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV321.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV321.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV322.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV322.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV322.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV322.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV322.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV322.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV323.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV323.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV323.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV323.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV323.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV323.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV324.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV324.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV324.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV324.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV324.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV324.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV325.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV325.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV325.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV325.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV325.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV325.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV326.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV326.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV326.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV326.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV326.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV326.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV327.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV327.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV327.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV327.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV327.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV327.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV328.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV328.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV328.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV328.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV328.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV328.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV329.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV329.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV329.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV329.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV329.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV329.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV330.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV330.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV330.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV330.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV330.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV330.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV332.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV332.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV332.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV332.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV332.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV332.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV333.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV333.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV333.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV333.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV333.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV333.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV334.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV334.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV334.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV334.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV334.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV334.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.PEV335.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.PEV335.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.PEV335.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.PEV335.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.PEV335.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.PEV335.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.best1.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.best1.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.best1.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.best1.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.best1.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.best1.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.video1.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.video1.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.video1.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.video1.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.video1.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.video1.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.voice1.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.voice1.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.voice1.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.voice1.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.voice1.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.voice1.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.best4.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.best4.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.best4.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.best4.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.best4.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.best4.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.video4.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.video4.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.video4.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.video4.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.video4.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.video4.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.voice4.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.voice4.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.voice4.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.voice4.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.voice4.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.voice4.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.best9.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.best9.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.best9.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.best9.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.best9.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.best9.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.video9.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.video9.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.video9.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.video9.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.video9.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.video9.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.voice9.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.voice9.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.voice9.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.voice9.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.voice9.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.voice9.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.best15.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.best15.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.best15.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.best15.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.best15.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.best15.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.video15.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.video15.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.video15.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.video15.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.video15.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.video15.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.voice15.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.voice15.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.voice15.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.voice15.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.voice15.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.voice15.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.best16.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.best16.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.best16.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.best16.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.best16.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.best16.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.video16.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.video16.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.video16.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.video16.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.video16.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.video16.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.voice16.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.voice16.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.voice16.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.voice16.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.voice16.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.voice16.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.best19.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.best19.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.best19.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.best19.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.best19.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.best19.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.video19.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.video19.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.video19.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.video19.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.video19.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.video19.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.voice19.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.voice19.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.voice19.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.voice19.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.voice19.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.voice19.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.best21.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.best21.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.best21.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.best21.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.best21.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.best21.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.video21.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.video21.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.video21.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.video21.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.video21.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.video21.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.voice21.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.voice21.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.voice21.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.voice21.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.voice21.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.voice21.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.best25.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.best25.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.best25.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.best25.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.best25.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.best25.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.video25.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.video25.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.video25.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.video25.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.video25.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.video25.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.voice25.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.voice25.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.voice25.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.voice25.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.voice25.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.voice25.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.best28.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.best28.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.best28.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.best28.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.best28.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.best28.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.video28.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.video28.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.video28.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.video28.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.video28.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.video28.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.voice28.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.voice28.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.voice28.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.voice28.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.voice28.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.voice28.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.host17.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.host17.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.host17.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.host17.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.host17.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.host17.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.MPP1.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.MPP1.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.MPP1.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.MPP1.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.MPP1.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.MPP1.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.MPP2.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.MPP2.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.MPP2.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.MPP2.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.MPP2.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.MPP2.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.MPP3.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.MPP3.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.MPP3.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.MPP3.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.MPP3.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.MPP3.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.MPP4.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.MPP4.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.MPP4.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.MPP4.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.MPP4.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.MPP4.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.MPP7.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.MPP7.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.MPP7.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.MPP7.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.MPP7.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.MPP7.cli 	"end-to-end delay max" 	0
+scalar PEVResidentialOnly.MPP9.cli 	"packets sent" 	0
+scalar PEVResidentialOnly.MPP9.cli 	"packets rcvd" 	0
+scalar PEVResidentialOnly.MPP9.cli 	"end-to-end delay mean" 	0
+scalar PEVResidentialOnly.MPP9.cli 	"end-to-end delay stddev" 	-nan
+scalar PEVResidentialOnly.MPP9.cli 	"end-to-end delay min" 	0
+scalar PEVResidentialOnly.MPP9.cli 	"end-to-end delay max" 	0

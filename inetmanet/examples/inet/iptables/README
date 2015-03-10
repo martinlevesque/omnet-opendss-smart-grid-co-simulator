@@ -1,0 +1,15 @@
+Three hosts in two domains are connected through five routers.
+
+The router fhrouter1 uses iptables drop mechanism
+
+the rules are
+iptables [options]
+Valid options 
+-A INPUT|OUTPUT (filter the packet in the input or at the output)
+-s ipAddress/mask (example -s 192.168.1.1/32) filter packets with source address ipAddress  
+-d ipAddress/mask (example -d 192.168.1.1/32) filter packets with destination address ipAddress
+-p udp|tcp  filtered protocol.
+-sport port protocol port filtered, source port 
+-dport port (example filter http -dport 80)protocol port filtered, destination port 
+-i interface filter packets that uses this interface
+-j rule, only support DROP in this moment  

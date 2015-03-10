@@ -1,0 +1,555 @@
+<?xml version='1.0' encoding='ISO-8859-1' standalone='yes' ?>
+<tagfile>
+  <compound kind="file">
+    <name>ARP_Vlans.cc</name>
+    <path>/media/data/phD/code/omnetpp/Vlans/src/networklayer/</path>
+    <filename>ARP__Vlans_8cc</filename>
+    <includes id="ARP__Vlans_8cc" name="ARP_Vlans.cc" local="yes" imported="no">ARP_Vlans.h</includes>
+    <member kind="function">
+      <type></type>
+      <name>Define_Module</name>
+      <anchorfile>ARP__Vlans_8cc.html</anchorfile>
+      <anchor>a55cedcd646d47af94e4ff5cf08a4380f</anchor>
+      <arglist>(ARP_Vlans)</arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>ARP_Vlans.h</name>
+    <path>/media/data/phD/code/omnetpp/Vlans/src/networklayer/</path>
+    <filename>ARP__Vlans_8h</filename>
+    <class kind="class">ARP_Vlans</class>
+  </compound>
+  <compound kind="file">
+    <name>EtherEncapVlans.cc</name>
+    <path>/media/data/phD/code/omnetpp/Vlans/src/linklayer/</path>
+    <filename>EtherEncapVlans_8cc</filename>
+    <includes id="EtherEncapVlans_8cc" name="EtherEncapVlans.cc" local="yes" imported="no">EtherEncapVlans.h</includes>
+    <member kind="function">
+      <type></type>
+      <name>Define_Module</name>
+      <anchorfile>EtherEncapVlans_8cc.html</anchorfile>
+      <anchor>a9c70ddc6cccedb3912b765899d14778c</anchor>
+      <arglist>(EtherEncapVlans)</arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>EtherEncapVlans.h</name>
+    <path>/media/data/phD/code/omnetpp/Vlans/src/linklayer/</path>
+    <filename>EtherEncapVlans_8h</filename>
+    <includes id="EtherVlanDefs_8h" name="EtherVlanDefs.h" local="yes" imported="no">EtherVlanDefs.h</includes>
+    <class kind="class">EtherEncapVlans</class>
+  </compound>
+  <compound kind="file">
+    <name>EtherMacVlan.cc</name>
+    <path>/media/data/phD/code/omnetpp/Vlans/src/linklayer/</path>
+    <filename>EtherMacVlan_8cc</filename>
+    <includes id="EtherMacVlan_8cc" name="EtherMacVlan.cc" local="yes" imported="no">EtherMacVlan.h</includes>
+    <includes id="EtherVlanDefs_8h" name="EtherVlanDefs.h" local="yes" imported="no">EtherVlanDefs.h</includes>
+    <member kind="function">
+      <type></type>
+      <name>Define_Module</name>
+      <anchorfile>EtherMacVlan_8cc.html</anchorfile>
+      <anchor>acb8976731b45a171c35a2d764e3174da</anchor>
+      <arglist>(EtherMacVlan)</arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>EtherMacVlan.h</name>
+    <path>/media/data/phD/code/omnetpp/Vlans/src/linklayer/</path>
+    <filename>EtherMacVlan_8h</filename>
+    <includes id="EtherVlanDefs_8h" name="EtherVlanDefs.h" local="yes" imported="no">EtherVlanDefs.h</includes>
+    <class kind="class">EtherMacVlan</class>
+  </compound>
+  <compound kind="file">
+    <name>EtherVlanDefs.h</name>
+    <path>/media/data/phD/code/omnetpp/Vlans/src/linklayer/</path>
+    <filename>EtherVlanDefs_8h</filename>
+    <member kind="define">
+      <type>#define</type>
+      <name>VLAN_TYPE_D1Q</name>
+      <anchorfile>EtherVlanDefs_8h.html</anchorfile>
+      <anchor>a98b72d5cf6ab2d6dde7c365fb4c0daf0</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>MAX_ETHERNET_FRAME_D1Q</name>
+      <anchorfile>EtherVlanDefs_8h.html</anchorfile>
+      <anchor>acef88e25be1394f7fa2de888abde114a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>ETHERNET_HEADER_LEN_D1Q</name>
+      <anchorfile>EtherVlanDefs_8h.html</anchorfile>
+      <anchor>a13289936a559904f94a71a4eb2d224a1</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>MACVlanRelayUnitBase.cc</name>
+    <path>/media/data/phD/code/omnetpp/Vlans/src/linklayer/</path>
+    <filename>MACVlanRelayUnitBase_8cc</filename>
+    <includes id="MACVlanRelayUnitBase_8cc" name="MACVlanRelayUnitBase.cc" local="yes" imported="no">MACVlanRelayUnitBase.h</includes>
+    <member kind="define">
+      <type>#define</type>
+      <name>MAX_LINE</name>
+      <anchorfile>MACVlanRelayUnitBase_8cc.html</anchorfile>
+      <anchor>a842ed03f27719bc87666bfd1f75415b8</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static std::ostream &amp;</type>
+      <name>operator&lt;&lt;</name>
+      <anchorfile>MACVlanRelayUnitBase_8cc.html</anchorfile>
+      <anchor>aa6fb05e12e81c4e20a42ffdb903d0b61</anchor>
+      <arglist>(std::ostream &amp;os, const AddressEntry &amp;e)</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static char *</type>
+      <name>fgetline</name>
+      <anchorfile>MACVlanRelayUnitBase_8cc.html</anchorfile>
+      <anchor>a3bc4abb3bb07faa256fcc2345927e041</anchor>
+      <arglist>(FILE *fp)</arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>MACVlanRelayUnitBase.h</name>
+    <path>/media/data/phD/code/omnetpp/Vlans/src/linklayer/</path>
+    <filename>MACVlanRelayUnitBase_8h</filename>
+    <class kind="struct">AddressEntry</class>
+    <class kind="struct">_mac_llid</class>
+    <class kind="struct">_port_llid</class>
+    <class kind="struct">macllidCmp</class>
+    <class kind="class">MACVlanRelayUnitBase</class>
+    <member kind="typedef">
+      <type>struct _mac_llid</type>
+      <name>mac_llid</name>
+      <anchorfile>MACVlanRelayUnitBase_8h.html</anchorfile>
+      <anchor>a708a4bfa554f7aa4cf8980b212bf87e1</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="typedef">
+      <type>struct _port_llid</type>
+      <name>port_llid</name>
+      <anchorfile>MACVlanRelayUnitBase_8h.html</anchorfile>
+      <anchor>a462265d8ca093190594a912e6f11cce7</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>Q_mgmt_PerVlan.cc</name>
+    <path>/media/data/phD/code/omnetpp/Vlans/src/linklayer/</path>
+    <filename>Q__mgmt__PerVlan_8cc</filename>
+    <includes id="Q__mgmt__PerVlan_8cc" name="Q_mgmt_PerVlan.cc" local="yes" imported="no">Q_mgmt_PerVlan.h</includes>
+    <member kind="function">
+      <type></type>
+      <name>Define_Module</name>
+      <anchorfile>Q__mgmt__PerVlan_8cc.html</anchorfile>
+      <anchor>aa620ed41bdcc37cdfcd3480c18d01953</anchor>
+      <arglist>(Q_mgmt_PerVlan)</arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>Q_mgmt_PerVlan.h</name>
+    <path>/media/data/phD/code/omnetpp/Vlans/src/linklayer/</path>
+    <filename>Q__mgmt__PerVlan_8h</filename>
+    <class kind="class">Q_mgmt_PerVlan</class>
+  </compound>
+  <compound kind="file">
+    <name>VlanNetConfig.cc</name>
+    <path>/media/data/phD/code/omnetpp/Vlans/src/networklayer/autoconfig/</path>
+    <filename>VlanNetConfig_8cc</filename>
+    <includes id="VlanNetConfig_8cc" name="VlanNetConfig.cc" local="yes" imported="no">VlanNetConfig.h</includes>
+    <member kind="function">
+      <type></type>
+      <name>Define_Module</name>
+      <anchorfile>VlanNetConfig_8cc.html</anchorfile>
+      <anchor>a2ac02c4e27f364bf7f1b672c6c6716af</anchor>
+      <arglist>(VlanNetConfig)</arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>VlanNetConfig.h</name>
+    <path>/media/data/phD/code/omnetpp/Vlans/src/networklayer/autoconfig/</path>
+    <filename>VlanNetConfig_8h</filename>
+    <class kind="class">VlanNetConfig</class>
+  </compound>
+  <compound kind="struct">
+    <name>_mac_llid</name>
+    <filename>struct__mac__llid.html</filename>
+    <member kind="function">
+      <type>bool</type>
+      <name>operator==</name>
+      <anchorfile>struct__mac__llid.html</anchorfile>
+      <anchor>a95fcdc031dbee070f06bb01d99b88be4</anchor>
+      <arglist>(struct _mac_llid ml) const </arglist>
+    </member>
+    <member kind="variable">
+      <type>MACAddress</type>
+      <name>mac</name>
+      <anchorfile>struct__mac__llid.html</anchorfile>
+      <anchor>a616750c93da57a0c64279680021ea159</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>int</type>
+      <name>llid</name>
+      <anchorfile>struct__mac__llid.html</anchorfile>
+      <anchor>ab84f29b0aecb2898cf5049cf827a8462</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="friend">
+      <type>friend std::ostream &amp;</type>
+      <name>operator&lt;&lt;</name>
+      <anchorfile>struct__mac__llid.html</anchorfile>
+      <anchor>a30df217a9c278bdc8bcb71f9b306bf2e</anchor>
+      <arglist>(std::ostream &amp;out, const struct _mac_llid &amp;ml)</arglist>
+    </member>
+  </compound>
+  <compound kind="struct">
+    <name>_port_llid</name>
+    <filename>struct__port__llid.html</filename>
+    <member kind="function">
+      <type>bool</type>
+      <name>operator==</name>
+      <anchorfile>struct__port__llid.html</anchorfile>
+      <anchor>aab49cdade51701cc3cfd1a90006b02ed</anchor>
+      <arglist>(struct _port_llid pl) const </arglist>
+    </member>
+    <member kind="variable">
+      <type>std::string</type>
+      <name>port</name>
+      <anchorfile>struct__port__llid.html</anchorfile>
+      <anchor>a3d0e13f96f4d9b2a7ab832c71f34c7c1</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>int</type>
+      <name>llid</name>
+      <anchorfile>struct__port__llid.html</anchorfile>
+      <anchor>af6699e8a3e486b88a6d600a88d30d044</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="struct">
+    <name>AddressEntry</name>
+    <filename>structAddressEntry.html</filename>
+    <member kind="variable">
+      <type>std::string</type>
+      <name>portName</name>
+      <anchorfile>structAddressEntry.html</anchorfile>
+      <anchor>a581b439fb7cfe46b0102d0df35baef56</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>simtime_t</type>
+      <name>insertionTime</name>
+      <anchorfile>structAddressEntry.html</anchorfile>
+      <anchor>ab3568feb50515294cfeed84b7d601b22</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="class">
+    <name>ARP_Vlans</name>
+    <filename>classARP__Vlans.html</filename>
+    <member kind="function" protection="protected" virtualness="virtual">
+      <type>virtual void</type>
+      <name>sendPacketToNIC</name>
+      <anchorfile>classARP__Vlans.html</anchorfile>
+      <anchor>af03dae34dfc6ad495c92cd93fca62414</anchor>
+      <arglist>(cMessage *msg, InterfaceEntry *ie, const MACAddress &amp;macAddress)</arglist>
+    </member>
+  </compound>
+  <compound kind="class">
+    <name>EtherEncapVlans</name>
+    <filename>classEtherEncapVlans.html</filename>
+    <member kind="typedef" protection="protected">
+      <type>std::map&lt; uint16_t, MACAddress &gt;</type>
+      <name>VlanMacs</name>
+      <anchorfile>classEtherEncapVlans.html</anchorfile>
+      <anchor>a13ee669fee728a29c561cd19e68ce3e7</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="function" protection="protected" virtualness="virtual">
+      <type>virtual void</type>
+      <name>initialize</name>
+      <anchorfile>classEtherEncapVlans.html</anchorfile>
+      <anchor>a5cc3b95c97e5f038534ac39459c44fa7</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function" protection="protected" virtualness="virtual">
+      <type>virtual void</type>
+      <name>processPacketFromHigherLayer</name>
+      <anchorfile>classEtherEncapVlans.html</anchorfile>
+      <anchor>a919b48b8adf55022b584897d871ac56f</anchor>
+      <arglist>(cPacket *msg)</arglist>
+    </member>
+    <member kind="function" protection="protected" virtualness="virtual">
+      <type>virtual void</type>
+      <name>processFrameFromMAC</name>
+      <anchorfile>classEtherEncapVlans.html</anchorfile>
+      <anchor>a0cbf032420719f402ebde64c2fc457c4</anchor>
+      <arglist>(EtherFrame *msg)</arglist>
+    </member>
+    <member kind="function" protection="protected">
+      <type>void</type>
+      <name>registerVlanInterfaces</name>
+      <anchorfile>classEtherEncapVlans.html</anchorfile>
+      <anchor>a0699dcf4f8f16648a727e4f863428b48</anchor>
+      <arglist>(double txrate)</arglist>
+    </member>
+    <member kind="variable" protection="protected">
+      <type>VlanMacs</type>
+      <name>vmacs</name>
+      <anchorfile>classEtherEncapVlans.html</anchorfile>
+      <anchor>abddf1e4775ac8690e5f7cd631bfc95be</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="class">
+    <name>EtherMacVlan</name>
+    <filename>classEtherMacVlan.html</filename>
+    <member kind="function" protection="protected" virtualness="virtual">
+      <type>virtual void</type>
+      <name>processFrameFromUpperLayer</name>
+      <anchorfile>classEtherMacVlan.html</anchorfile>
+      <anchor>afa02f08faab71971f574a7a37683355b</anchor>
+      <arglist>(EtherFrame *frame)</arglist>
+    </member>
+    <member kind="function" protection="protected" virtualness="virtual">
+      <type>virtual void</type>
+      <name>startFrameTransmission</name>
+      <anchorfile>classEtherMacVlan.html</anchorfile>
+      <anchor>ad926a84dc877ac4d7419b9cdf9b15ec8</anchor>
+      <arglist>()</arglist>
+    </member>
+  </compound>
+  <compound kind="struct">
+    <name>macllidCmp</name>
+    <filename>structmacllidCmp.html</filename>
+    <member kind="function">
+      <type>bool</type>
+      <name>operator()</name>
+      <anchorfile>structmacllidCmp.html</anchorfile>
+      <anchor>a07c1d0bcfc75fe09bd9fcb7ba88da5fe</anchor>
+      <arglist>(const mac_llid s1, const mac_llid s2) const </arglist>
+    </member>
+  </compound>
+  <compound kind="class">
+    <name>MACVlanRelayUnitBase</name>
+    <filename>classMACVlanRelayUnitBase.html</filename>
+    <member kind="typedef" protection="protected">
+      <type>std::map&lt; mac_llid, AddressEntry, macllidCmp &gt;</type>
+      <name>AddressTable</name>
+      <anchorfile>classMACVlanRelayUnitBase.html</anchorfile>
+      <anchor>aea74bb3243f852245f50de7692ec82ae</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="function" protection="protected" virtualness="virtual">
+      <type>virtual void</type>
+      <name>initialize</name>
+      <anchorfile>classMACVlanRelayUnitBase.html</anchorfile>
+      <anchor>a62468c191611a71dbcc0c9e3c3f0eeab</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function" protection="protected" virtualness="virtual">
+      <type>virtual void</type>
+      <name>readAddressTable</name>
+      <anchorfile>classMACVlanRelayUnitBase.html</anchorfile>
+      <anchor>ab9df90a8d9ac066986f55763fbef0d23</anchor>
+      <arglist>(const char *fileName)</arglist>
+    </member>
+    <member kind="function" protection="protected" virtualness="virtual">
+      <type>virtual void</type>
+      <name>updateTableWithAddress</name>
+      <anchorfile>classMACVlanRelayUnitBase.html</anchorfile>
+      <anchor>a36cb4e8984fe114da56911ad279c1804</anchor>
+      <arglist>(mac_llid MacLLid, std::string portName)</arglist>
+    </member>
+    <member kind="function" protection="protected" virtualness="virtual">
+      <type>virtual void</type>
+      <name>updateTableFromFrame</name>
+      <anchorfile>classMACVlanRelayUnitBase.html</anchorfile>
+      <anchor>afb984db38e102a30c3624d6df2b9e974</anchor>
+      <arglist>(EtherFrame *frame)</arglist>
+    </member>
+    <member kind="function" protection="protected" virtualness="virtual">
+      <type>virtual std::string</type>
+      <name>getPortForAddress</name>
+      <anchorfile>classMACVlanRelayUnitBase.html</anchorfile>
+      <anchor>a619343f6a8f70d1611284031b8adb581</anchor>
+      <arglist>(mac_llid MacLLid)</arglist>
+    </member>
+    <member kind="function" protection="protected" virtualness="virtual">
+      <type>virtual std::vector&lt; port_llid &gt;</type>
+      <name>getLLIDsForAddress</name>
+      <anchorfile>classMACVlanRelayUnitBase.html</anchorfile>
+      <anchor>a2235c2abd3de8676434e323e13dffedf</anchor>
+      <arglist>(MACAddress mac)</arglist>
+    </member>
+    <member kind="function" protection="protected" virtualness="virtual">
+      <type>virtual void</type>
+      <name>printAddressTable</name>
+      <anchorfile>classMACVlanRelayUnitBase.html</anchorfile>
+      <anchor>a7cb1dafa69d67a3b5664a2cbcdd9d5a6</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function" protection="protected" virtualness="virtual">
+      <type>virtual void</type>
+      <name>removeAgedEntriesFromTable</name>
+      <anchorfile>classMACVlanRelayUnitBase.html</anchorfile>
+      <anchor>a70de09f8d3a913bf373f4ba4e6c403ac</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function" protection="protected" virtualness="virtual">
+      <type>virtual void</type>
+      <name>removeOldestTableEntry</name>
+      <anchorfile>classMACVlanRelayUnitBase.html</anchorfile>
+      <anchor>a983f92304f182292d40c1f2e4ea0c2a0</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="variable" protection="protected">
+      <type>int</type>
+      <name>numPorts</name>
+      <anchorfile>classMACVlanRelayUnitBase.html</anchorfile>
+      <anchor>afbcde50c260be23a81fb99af63fc40df</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" protection="protected">
+      <type>int</type>
+      <name>addressTableSize</name>
+      <anchorfile>classMACVlanRelayUnitBase.html</anchorfile>
+      <anchor>a94d27f46bf98efb129f672755ae4257e</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" protection="protected">
+      <type>simtime_t</type>
+      <name>agingTime</name>
+      <anchorfile>classMACVlanRelayUnitBase.html</anchorfile>
+      <anchor>a3c3b1506df4663748c10f3583ef23b37</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" protection="protected">
+      <type>AddressTable</type>
+      <name>addresstable</name>
+      <anchorfile>classMACVlanRelayUnitBase.html</anchorfile>
+      <anchor>ae059ad8d9774285e4ffc5ff2a782940d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" protection="protected">
+      <type>int</type>
+      <name>seqNum</name>
+      <anchorfile>classMACVlanRelayUnitBase.html</anchorfile>
+      <anchor>a48d20e873c2f2a9d358ab170201090c2</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="class">
+    <name>Q_mgmt_PerVlan</name>
+    <filename>classQ__mgmt__PerVlan.html</filename>
+    <member kind="function" protection="protected" virtualness="virtual">
+      <type>virtual void</type>
+      <name>initialize</name>
+      <anchorfile>classQ__mgmt__PerVlan.html</anchorfile>
+      <anchor>a59669aef58d7f8a7bf439295e7a1853c</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function" protection="protected" virtualness="virtual">
+      <type>virtual void</type>
+      <name>handleMessage</name>
+      <anchorfile>classQ__mgmt__PerVlan.html</anchorfile>
+      <anchor>a478a639eec0a374b6c59e114e8105ff5</anchor>
+      <arglist>(cMessage *msg)</arglist>
+    </member>
+    <member kind="function" protection="protected" virtualness="virtual">
+      <type>virtual void</type>
+      <name>requestPacket</name>
+      <anchorfile>classQ__mgmt__PerVlan.html</anchorfile>
+      <anchor>a4299540468991c2622fe53b4353234bb</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function" protection="protected" virtualness="virtual">
+      <type>virtual bool</type>
+      <name>isEmpty</name>
+      <anchorfile>classQ__mgmt__PerVlan.html</anchorfile>
+      <anchor>a9b4a5d0e8700b930dd10bd3a3ac7e5f2</anchor>
+      <arglist>()</arglist>
+    </member>
+  </compound>
+  <compound kind="class">
+    <name>VlanNetConfig</name>
+    <filename>classVlanNetConfig.html</filename>
+    <member kind="typedef" protection="protected">
+      <type>std::map&lt; uint16_t, uint8_t &gt;</type>
+      <name>HostsPerVlan</name>
+      <anchorfile>classVlanNetConfig.html</anchorfile>
+      <anchor>af7014d6c0c3b6da3cfc2c9fa1f283d39</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="function" protection="protected" virtualness="virtual">
+      <type>virtual void</type>
+      <name>initialize</name>
+      <anchorfile>classVlanNetConfig.html</anchorfile>
+      <anchor>acb358c6dde3960b21674a65426ccc3b0</anchor>
+      <arglist>(int stage)</arglist>
+    </member>
+    <member kind="function" protection="protected" virtualness="virtual">
+      <type>virtual void</type>
+      <name>assignAddresses</name>
+      <anchorfile>classVlanNetConfig.html</anchorfile>
+      <anchor>a70b7d023cd92624b6b6df9ed87c3c0fb</anchor>
+      <arglist>(cTopology &amp;topo, NodeInfoVector &amp;nodeInfo)</arglist>
+    </member>
+    <member kind="function" protection="protected" virtualness="virtual">
+      <type>virtual void</type>
+      <name>setDisplayString</name>
+      <anchorfile>classVlanNetConfig.html</anchorfile>
+      <anchor>af5301333fb2632dc4d399bf7af8e4508</anchor>
+      <arglist>(cTopology &amp;topo, NodeInfoVector &amp;nodeInfo)</arglist>
+    </member>
+    <member kind="variable" protection="protected">
+      <type>HostsPerVlan</type>
+      <name>hosts_per_vlan</name>
+      <anchorfile>classVlanNetConfig.html</anchorfile>
+      <anchor>a0a3626b9e955274d8c40fe15fc5acefe</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="dir">
+    <name>src/networklayer/autoconfig/</name>
+    <path>/media/data/phD/code/omnetpp/Vlans/src/networklayer/autoconfig/</path>
+    <filename>dir_5014d810e5d30c2b1de2e8f7e07c77d3.html</filename>
+    <file>VlanNetConfig.cc</file>
+    <file>VlanNetConfig.h</file>
+  </compound>
+  <compound kind="dir">
+    <name>src/linklayer/</name>
+    <path>/media/data/phD/code/omnetpp/Vlans/src/linklayer/</path>
+    <filename>dir_8a2e31b5d45c76e85eb76c857afa9ee5.html</filename>
+    <file>EtherEncapVlans.cc</file>
+    <file>EtherEncapVlans.h</file>
+    <file>EtherMacVlan.cc</file>
+    <file>EtherMacVlan.h</file>
+    <file>EtherVlanDefs.h</file>
+    <file>MACVlanRelayUnitBase.cc</file>
+    <file>MACVlanRelayUnitBase.h</file>
+    <file>Q_mgmt_PerVlan.cc</file>
+    <file>Q_mgmt_PerVlan.h</file>
+  </compound>
+  <compound kind="dir">
+    <name>src/networklayer/</name>
+    <path>/media/data/phD/code/omnetpp/Vlans/src/networklayer/</path>
+    <filename>dir_2fbfe049487035cdbaf50b1909f896dc.html</filename>
+    <dir>src/networklayer/autoconfig/</dir>
+    <file>ARP_Vlans.cc</file>
+    <file>ARP_Vlans.h</file>
+  </compound>
+  <compound kind="dir">
+    <name>src/</name>
+    <path>/media/data/phD/code/omnetpp/Vlans/src/</path>
+    <filename>dir_c46f2acdc55df14c4c94a935a26f4cd0.html</filename>
+    <dir>src/linklayer/</dir>
+    <dir>src/networklayer/</dir>
+  </compound>
+</tagfile>

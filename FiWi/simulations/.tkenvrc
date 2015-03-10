@@ -1,0 +1,4 @@
+# Partial Tkenv config file -- see $HOME/.tkenvrc as well
+inspector "PEVResidentialOnly" "PEVResidentialOnly" "2" "607x335+66+52:normal"
+inspector "PrettyNanoGrid" "PrettyNanoGrid" "2" "607x335+66+52:normal"
+

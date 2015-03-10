@@ -1,0 +1,70 @@
+INETMANET Framework for OMNEST/OMNeT++ 4.0 (based on INET Framework)
+=====================================
+
+INETMANET is based on INET Framework (http://inet.omnetpp.org/) and continuosly developed. 
+Generally it provides the same functionality as the INET Framework, but contains additional
+protocols and components that are especially useful while modeling wireless communication:
+
+ * Propagation models: 
+   - Log normal shadowing
+   - Nakagami
+   - Rayleigh
+   - Rice
+   - Two Ray
+
+ * Link layer protocols: 
+   - 802.11 (a,g,e) (+ possibility of to use a pre load table for computing the binary error rate)
+   - 802.15.4 - (under test)
+   - 802.16e (Wimax) - (under test)
+   - rstp
+
+ * manet routing protocols: 
+   - OLSR
+   - DSR
+   - DSDV
+   - DYMO
+   - AODV
+   - BATMAN   
+
+ * Mobility models:
+   - Ns2 mobility
+   - Restricted const speed mobility (define a sub area and it restricts the 
+     mobility of the node to this sub-area)
+   - Restricted linear mobility (define a sub area and it restricts the 
+     mobility of the node to this sub-area)
+   - Chiang mobility
+   - Gauss Markov mobility
+   - TraCI mobility
+
+ * Application models:
+   - DHCP
+
+ * Other modules and changes:
+   - Support for multi radio interfaces.
+   - A Channel with programmable failure and recovery events (under test)
+   - Traci integration
+   - Battery model
+   - WFQ Support
+   - Dijkstra K shortest path
+   - Global ARP, the ARP module know all the address
+   - Virtual Ethernet under wireless ad-hoc (similar to 802.11s)
+   - IP support of broadcast packet 
+   - The fragmentation model really fragment the packets (DSR needs this )
+
+Directory structure
+-------------------
+Protocols and models not fully tested can be found under the src/underTest
+directory. By default "make makefiles" excludes these files from the build process.
+
+If you want to use these protocols, regenerate the makefiles by entering "make makeall".
+These makefiles will include the sources under the underTest directory too.
+
+-----------------------------------------------------------------------------
+IMPORTANT: The INETMANET Framework is continuously being improved: new parts
+are added, bugs are corrected, and so on. We cannot assert that any protocol
+implemented here will work fully according to the specifications. YOU ARE
+RESPONSIBLE YOURSELF TO MAKE SURE THAT THE MODELS YOU USE IN YOUR SIMULATIONS
+WORK CORRECTLY, AND YOU'RE GETTING VALID RESULTS.
+
+Contributions are highly welcome. You can make a difference!
+

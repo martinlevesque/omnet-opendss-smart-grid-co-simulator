@@ -1,0 +1,61 @@
+<html>
+   <head>
+      <link rel="stylesheet" type="text/css" href="style.css" />
+   </head>
+   <body onload="">
+<h2 class="comptitle">Msg File <i>src/linklayer/Ieee802VlanCtrl.msg</i></h2>
+<table class="typetable">
+   <tr>
+      <th>Name</th>
+      <th>Description</th>
+   </tr>
+<tr>
+   <td>
+      <a href="Ieee802VlanCtrl.html">Ieee802VlanCtrl</a>
+      <i> (class)</i>
+   </td>
+   <td>
+
+<p>Control structure for communication between LLC and higher layers
+Added interface name though in order for LLC to be able to set
+the vlan id. We extend so we are going to have backwards compatibility
+with the older inet modules, since casting to Ieee802Ctrl will be ok.</p>
+   </td>
+</tr>
+</table>
+<h3 class="subtitle">Source code:</h3>
+<pre class="src"><span style="color: #808080; font-style: italic; ">//
+// This program is free software: you can redistribute it and/or modify
+// it under the terms of the GNU Lesser General Public License as published by
+// the Free Software Foundation, either version 3 of the License, or
+// (at your option) any later version.
+// 
+// This program is distributed in the hope that it will be useful,
+// but WITHOUT ANY WARRANTY; without even the implied warranty of
+// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+// GNU Lesser General Public License for more details.
+// 
+// You should have received a copy of the GNU Lesser General Public License
+// along with this program.  If not, see http://www.gnu.org/licenses/.
+//
+</span><span style="color: #800000; font-weight: bold; ">cplusplus</span><span style="color: #000000; "> {{
+#</span><span style="color: #000000; ">include</span><span style="color: #000000; "> </span><span style="color: #008000; ">&quot;MACAddress.h&quot;</span><span style="color: #000000; ">
+#</span><span style="color: #000000; ">include</span><span style="color: #000000; "> </span><span style="color: #008000; ">&quot;Ieee802Ctrl_m.h&quot;</span><span style="color: #000000; ">
+}}
+
+</span><span style="color: #800000; font-weight: bold; ">class</span><span style="color: #000000; "> </span><span style="color: #800000; font-weight: bold; ">noncobject</span><span style="color: #000000; "> </span><span style="color: #000000; ">MACAddress</span><span style="color: #000000; ">;
+</span><span style="color: #800000; font-weight: bold; ">class</span><span style="color: #000000; "> </span><span style="color: #800000; font-weight: bold; ">noncobject</span><span style="color: #000000; "> </span><span style="color: #000000; ">Ieee802Ctrl</span><span style="color: #000000; ">;
+
+</span><span style="color: #808080; font-style: italic; ">//
+// Control structure for communication between LLC and higher layers
+// Added interface name though in order for LLC to be able to set
+// the vlan id. We extend so we are going to have backwards compatibility
+// with the older inet modules, since casting to Ieee802Ctrl will be ok.
+//
+</span><span style="color: #800000; font-weight: bold; ">class</span><span style="color: #000000; "> </span><span style="color: #000000; ">Ieee802VlanCtrl</span><span style="color: #000000; "> </span><span style="color: #800000; font-weight: bold; ">extends</span><span style="color: #000000; "> </span><span style="color: #000000; ">Ieee802Ctrl</span><span style="color: #000000; ">
+{
+    </span><span style="color: #000080; font-weight: bold; ">string</span><span style="color: #000000; "> </span><span style="color: #000000; ">ifName</span><span style="color: #000000; ">;		 </span><span style="color: #808080; font-style: italic; ">// Interface name (from routing decision)
+</span><span style="color: #000000; ">}</span></pre>
+   <hr><p class="footer"><a href="http://creativecommons.org/licenses/by-sa/3.0" target="_top"><img src="by-sa.png"></a> This documentation is released under the <a href="http://creativecommons.org/licenses/by-sa/3.0" target="_top">Creative Commons license</a></p>
+   </body>
+</html>

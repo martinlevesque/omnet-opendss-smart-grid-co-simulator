@@ -1,0 +1,3 @@
+ - add BE loads per hour: 1- switch * factor, 2- fixed packet size [DONE]
+ - video traffic with 1- ratio of PEV arrivals, 2- duration between min max, 3- nb video streams between [DONE]
+ - voice traffic with 1- ratio of PEV arrivals, 2- duration between min max, CBR [DONE]

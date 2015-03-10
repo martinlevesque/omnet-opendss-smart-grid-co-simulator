@@ -1,0 +1,240 @@
+<html>
+   <head>
+      <link rel="stylesheet" type="text/css" href="style.css" />
+   </head>
+   <body onload="">
+<h2 class="comptitle">Compound Module <i>EtherVlanInterface</i></h2>
+<b>Package:</b> Vlans.linklayer<br/><b>File: <a href="src-linklayer-EtherVlanInterface.ned.html">src/linklayer/EtherVlanInterface.ned</a></b><br/>
+<p>TODO auto-generated module</p>
+<img src="Vlans.linklayer.EtherVlanInterface-type.png" ismap="yes" usemap="#type-diagram"/><map name="type-diagram">
+<area shape="rect" href="Vlans.linklayer.EtherMacVlan.html" title="EtherMacVlan" alt="EtherMacVlan" coords="36,80,80,139">
+<area shape="rect" href="Vlans.linklayer.EtherEncapVlans.html" title="EtherEncapVlans" alt="EtherEncapVlans" coords="112,80,189,139">
+<area shape="rect" href="../../../inetmanet/doc/neddoc/inet.networklayer.queue.OutputQueue.html" title="OutputQueue" alt="OutputQueue" coords="227,80,271,139">
+</map>
+<h3 class="subtitle">Usage diagram:</h3>
+<p>The following diagram shows usage relationships between types.
+Unresolved types are missing from the diagram.
+<img src="Vlans.linklayer.EtherVlanInterface-usage.png" ismap="yes" usemap="#usage-diagram"/><map name="usage-diagram"><area shape="rect" href="Vlans.linklayer.EtherVlanInterface.html" title="Compound Module EtherVlanInterface" alt="" coords="177,80,305,107">
+<area shape="rect" href="ned.IdealChannel.html" title="Channel IdealChannel" alt="" coords="5,155,101,181">
+<area shape="rect" href="../../../inetmanet/doc/neddoc/inet.networklayer.queue.OutputQueue.html" title="Module Interface OutputQueue" alt="" coords="125,155,224,181">
+<area shape="rect" href="Vlans.linklayer.EtherEncapVlans.html" title="Simple Module EtherEncapVlans" alt="" coords="248,155,371,181">
+<area shape="rect" href="Vlans.linklayer.EtherMacVlan.html" title="Simple Module EtherMacVlan" alt="" coords="395,155,499,181">
+<area shape="rect" href="Vlans.nodes.StandardVlanHost.html" title="Compound Module StandardVlanHost" alt="" coords="179,5,304,32">
+</map>
+<h3 class="subtitle">Inheritance diagram:</h3>
+<p>The following diagram shows inheritance relationships for this type.
+Unresolved types are missing from the diagram.
+<img src="Vlans.linklayer.EtherVlanInterface-inheritance.png" ismap="yes" usemap="#inheritance-diagram"/><map name="inheritance-diagram"><area shape="rect" href="Vlans.linklayer.EtherVlanInterface.html" title="Compound Module EtherVlanInterface" alt="" coords="5,80,133,107">
+<area shape="rect" href="../../../inetmanet/doc/neddoc/inet.linklayer.INetworkInterface.html" title="Module Interface INetworkInterface" alt="" coords="9,5,129,32">
+</map>
+<h3 class="subtitle">Used in compound modules:</h3>
+<p>If a module type shows up more than once, that means it has been defined in more than one NED file.</p>
+<table>
+<tr>
+   <td>
+      <a href="Vlans.nodes.StandardVlanHost.html">StandardVlanHost</a>
+      <i> (compound&nbsp;module)</i>
+   </td>
+   <td>
+
+<p>IP host with TCP, UDP layers and applications.</p>
+   </td>
+</tr>
+</table>
+<h3 class="subtitle">Parameters:</h3>
+<table class="paramtable">
+   <tr>
+      <th>Name</th>
+      <th>Type</th>
+      <th>Default value</th>
+      <th>Description</th>
+   </tr>
+<tr class="local">
+   <td width="150">QMgmtUnit</td>
+   <td width="100">
+      <i>string</i>
+   </td>
+   <td width="120">"Q_mgmt_PerVlan"</td>
+   <td>   </td>
+</tr>
+</table>
+<h3 class="subtitle">Properties:</h3>
+<table class="paramtable">
+   <tr>
+      <th>Name</th>
+      <th>Value</th>
+      <th>Description</th>
+   </tr>
+<tr>
+   <td width="150">display</td>
+   <td width="100"><i>bgb=296,121;i=block/ifcard</i></td>
+   <td></td>
+</tr>
+</table>
+<h3 class="subtitle">Gates:</h3>
+<table class="paramtable">
+   <tr>
+      <th>Name</th>
+      <th>Direction</th>
+      <th>Size</th>
+      <th>Description</th>
+   </tr>
+<tr class="local">
+   <td width="150">netwIn</xsl:if></td>
+   <td width="100"><i>input</i></td>
+   <td width="50"></td>   <td></td>
+</tr>
+<tr class="local">
+   <td width="150">netwOut</xsl:if></td>
+   <td width="100"><i>output</i></td>
+   <td width="50"></td>   <td></td>
+</tr>
+<tr class="local">
+   <td width="150">phys</xsl:if></td>
+   <td width="100"><i>inout</i></td>
+   <td width="50"></td>   <td>
+</td>
+</tr>
+</table>
+<h3 class="subtitle">Unassigned submodule parameters:</h3>
+<table class="paramtable">
+   <tr>
+      <th>Name</th>
+      <th>Type</th>
+      <th>Default value</th>
+      <th>Description</th>
+   </tr>
+<tr>
+   <td><a href="Vlans.linklayer.EtherMacVlan.html">mac</a>.promiscuous</td>
+   <td width="100">
+      <i>bool</i>
+   </td>
+   <td width="120">true</td>
+   <td>
+<p>ALWAYS TRUE... LLC Will take care...</p>
+   </td>
+</tr>
+<tr>
+   <td><a href="Vlans.linklayer.EtherMacVlan.html">mac</a>.address</td>
+   <td width="100">
+      <i>string</i>
+   </td>
+   <td width="120">"auto"</td>
+   <td>
+<p>MAC address as hex string (12 hex digits), or
+"auto". "auto" values will be replaced by
+a generated MAC address in init stage 0.</p>
+   </td>
+</tr>
+<tr>
+   <td><a href="Vlans.linklayer.EtherMacVlan.html">mac</a>.txrate</td>
+   <td width="100">
+      <i>double</i>
+   </td>
+   <td width="120">100Mbps</td>
+   <td>
+<p>maximum data rate supported by this station (bit/s);
+actually chosen speed may be lower due to auto-
+configuration. 0 means fully auto-configured.</p>
+   </td>
+</tr>
+<tr>
+   <td><a href="Vlans.linklayer.EtherMacVlan.html">mac</a>.duplexEnabled</td>
+   <td width="100">
+      <i>bool</i>
+   </td>
+   <td width="120">true</td>
+   <td>
+<p>whether duplex mode can be enabled or not; whether
+MAC will actually use duplex mode depends on the result
+of the auto-configuration process (duplex is only
+possible with DTE-to-DTE connection).</p>
+   </td>
+</tr>
+<tr>
+   <td><a href="Vlans.linklayer.EtherMacVlan.html">mac</a>.txQueueLimit</td>
+   <td width="100">
+      <i>int</i>
+   </td>
+   <td width="120">1000</td>
+   <td>
+<p>maximum number of frames queued up for transmission;
+additional frames are dropped. Only used if queueModule==""</p>
+   </td>
+</tr>
+<tr>
+   <td><a href="Vlans.linklayer.EtherMacVlan.html">mac</a>.queueModule</td>
+   <td width="100">
+      <i>string</i>
+   </td>
+   <td width="120">""</td>
+   <td>
+<p>name of optional external queue module</p>
+   </td>
+</tr>
+<tr>
+   <td><a href="Vlans.linklayer.EtherMacVlan.html">mac</a>.mtu</td>
+   <td width="100">
+      <i>int</i>
+   </td>
+   <td width="120">1500</td>
+   <td>
+   </td>
+</tr>
+<tr>
+   <td><a href="Vlans.linklayer.EtherEncapVlans.html">encap_vlans</a>.vlans</td>
+   <td width="100">
+      <i>string</i>
+   </td>
+   <td width="120">""</td>
+   <td>   </td>
+</tr>
+<tr>
+   <td><a href="Vlans.linklayer.EtherEncapVlans.html">encap_vlans</a>.vlan_txrate</td>
+   <td width="100">
+      <i>double</i>
+   </td>
+   <td width="120">100Mbps</td>
+   <td>
+   </td>
+</tr>
+</table>
+<h3 class="subtitle">Source code:</h3>
+<pre class="src"><span style="color: #808080; font-style: italic; ">//
+// TODO auto-generated module
+//
+</span><span style="color: #800000; font-weight: bold; ">module</span><span style="color: #000000; "> </span><span style="color: #000000; ">EtherVlanInterface</span><span style="color: #000000; "> </span><span style="color: #800000; font-weight: bold; ">like</span><span style="color: #000000; "> </span><span style="color: #000000; ">INetworkInterface</span><span style="color: #000000; ">
+{
+    </span><span style="color: #800000; font-weight: bold; ">parameters</span><span style="color: #000000; ">:
+        </span><span style="color: #000000; font-weight: bold; ">@display</span><span style="color: #000000; ">(</span><span style="color: #008000; ">&quot;bgb=296,121;i=block/ifcard&quot;</span><span style="color: #000000; ">);
+        </span><span style="color: #000080; font-weight: bold; ">string</span><span style="color: #000000; "> </span><span style="color: #000000; ">QMgmtUnit</span><span style="color: #000000; "> = </span><span style="color: #800000; font-weight: bold; ">default</span><span style="color: #000000; ">(</span><span style="color: #008000; ">&quot;Q_mgmt_PerVlan&quot;</span><span style="color: #000000; ">);
+    </span><span style="color: #800000; font-weight: bold; ">gates</span><span style="color: #000000; ">:
+        </span><span style="color: #000080; font-weight: bold; ">input</span><span style="color: #000000; "> </span><span style="color: #000000; ">netwIn</span><span style="color: #000000; ">;
+        </span><span style="color: #000080; font-weight: bold; ">output</span><span style="color: #000000; "> </span><span style="color: #000000; ">netwOut</span><span style="color: #000000; ">;
+        </span><span style="color: #000080; font-weight: bold; ">inout</span><span style="color: #000000; "> </span><span style="color: #000000; ">phys</span><span style="color: #000000; ">;
+
+    </span><span style="color: #800000; font-weight: bold; ">submodules</span><span style="color: #000000; ">:
+        </span><span style="color: #000000; ">mac</span><span style="color: #000000; ">: </span><span style="color: #000000; ">EtherMacVlan</span><span style="color: #000000; "> {
+            </span><span style="color: #000000; font-weight: bold; ">@display</span><span style="color: #000000; ">(</span><span style="color: #008000; ">&quot;p=54,58&quot;</span><span style="color: #000000; ">);
+            </span><span style="color: #000000; ">promiscuous</span><span style="color: #000000; "> = </span><span style="color: #800000; font-weight: bold; ">default</span><span style="color: #000000; ">(</span><span style="color: #008000; ">true</span><span style="color: #000000; ">);
+        }
+        </span><span style="color: #000000; ">encap_vlans</span><span style="color: #000000; ">: </span><span style="color: #000000; ">EtherEncapVlans</span><span style="color: #000000; "> {
+            </span><span style="color: #000000; font-weight: bold; ">@display</span><span style="color: #000000; ">(</span><span style="color: #008000; ">&quot;p=148,58&quot;</span><span style="color: #000000; ">);
+        }
+        </span><span style="color: #000000; ">queue</span><span style="color: #000000; ">: &lt;</span><span style="color: #000000; ">QMgmtUnit</span><span style="color: #000000; ">&gt; </span><span style="color: #800000; font-weight: bold; ">like</span><span style="color: #000000; "> </span><span style="color: #000000; ">OutputQueue</span><span style="color: #000000; "> {
+            </span><span style="color: #000000; font-weight: bold; ">@display</span><span style="color: #000000; ">(</span><span style="color: #008000; ">&quot;p=245,58&quot;</span><span style="color: #000000; ">);
+        }
+
+    </span><span style="color: #800000; font-weight: bold; ">connections</span><span style="color: #000000; ">:
+        </span><span style="color: #000000; ">netwIn</span><span style="color: #000000; "> </span><span style="color: #800000; font-weight: bold; ">--&gt;</span><span style="color: #000000; "> </span><span style="color: #000000; ">queue</span><span style="color: #000000; ">.</span><span style="color: #000000; ">in</span><span style="color: #000000; ">;
+        </span><span style="color: #000000; ">queue</span><span style="color: #000000; ">.</span><span style="color: #000000; ">out</span><span style="color: #000000; "> </span><span style="color: #800000; font-weight: bold; ">--&gt;</span><span style="color: #000000; "> </span><span style="color: #000000; ">encap_vlans</span><span style="color: #000000; ">.</span><span style="color: #000000; ">upperLayerIn</span><span style="color: #000000; ">;
+        </span><span style="color: #000000; ">netwOut</span><span style="color: #000000; "> </span><span style="color: #800000; font-weight: bold; ">&lt;--</span><span style="color: #000000; "> { </span><span style="color: #000000; font-weight: bold; ">@display</span><span style="color: #000000; ">(</span><span style="color: #008000; ">&quot;m=n&quot;</span><span style="color: #000000; ">); } </span><span style="color: #800000; font-weight: bold; ">&lt;--</span><span style="color: #000000; "> </span><span style="color: #000000; ">encap_vlans</span><span style="color: #000000; ">.</span><span style="color: #000000; ">upperLayerOut</span><span style="color: #000000; ">;
+        </span><span style="color: #000000; ">encap_vlans</span><span style="color: #000000; ">.</span><span style="color: #000000; ">lowerLayerOut</span><span style="color: #000000; "> </span><span style="color: #800000; font-weight: bold; ">--&gt;</span><span style="color: #000000; "> </span><span style="color: #000000; ">mac</span><span style="color: #000000; ">.</span><span style="color: #000000; ">upperLayerIn</span><span style="color: #000000; ">;
+        </span><span style="color: #000000; ">encap_vlans</span><span style="color: #000000; ">.</span><span style="color: #000000; ">lowerLayerIn</span><span style="color: #000000; "> </span><span style="color: #800000; font-weight: bold; ">&lt;--</span><span style="color: #000000; "> </span><span style="color: #000000; ">mac</span><span style="color: #000000; ">.</span><span style="color: #000000; ">upperLayerOut</span><span style="color: #000000; ">;
+        </span><span style="color: #000000; ">mac</span><span style="color: #000000; ">.</span><span style="color: #000000; ">phys</span><span style="color: #000000; "> </span><span style="color: #800000; font-weight: bold; ">&lt;--&gt;</span><span style="color: #000000; "> </span><span style="color: #000000; ">phys</span><span style="color: #000000; ">;
+
+}
+</span></pre>
+   <hr><p class="footer"><a href="http://creativecommons.org/licenses/by-sa/3.0" target="_top"><img src="by-sa.png"></a> This documentation is released under the <a href="http://creativecommons.org/licenses/by-sa/3.0" target="_top">Creative Commons license</a></p>
+   </body>
+</html>

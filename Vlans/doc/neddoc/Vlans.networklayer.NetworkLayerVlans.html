@@ -1,0 +1,330 @@
+<html>
+   <head>
+      <link rel="stylesheet" type="text/css" href="style.css" />
+   </head>
+   <body onload="">
+<h2 class="comptitle">Compound Module <i>NetworkLayerVlans</i></h2>
+<b>Package:</b> Vlans.networklayer<br/><b>File: <a href="src-networklayer-NetworkLayerVlans.ned.html">src/networklayer/NetworkLayerVlans.ned</a></b><br/>
+<p>Network layer of an IP node.</p>
+<p>Interfaces to transport layer: TCP, UDP, echo/ping, RSVP</p>
+<img src="Vlans.networklayer.NetworkLayerVlans-type.png" ismap="yes" usemap="#type-diagram"/><map name="type-diagram">
+<area shape="rect" href="../../../inetmanet/doc/neddoc/inet.networklayer.ipv4.IP.html" title="IP" alt="IP" coords="67,117,117,176">
+<area shape="rect" href="Vlans.networklayer.ARP_Vlans.html" title="ARP_Vlans" alt="ARP_Vlans" coords="136,228,195,287">
+<area shape="rect" href="../../../inetmanet/doc/neddoc/inet.networklayer.ipv4.ICMP.html" title="ICMP" alt="ICMP" coords="148,93,178,136">
+<area shape="rect" href="../../../inetmanet/doc/neddoc/inet.networklayer.ipv4.IGMP.html" title="IGMP" alt="IGMP" coords="147,152,178,195">
+<area shape="rect" href="../../../inetmanet/doc/neddoc/inet.networklayer.ipv4.ErrorHandling.html" title="ErrorHandling" alt="ErrorHandling" coords="198,93,284,136">
+</map>
+<h3 class="subtitle">Usage diagram:</h3>
+<p>The following diagram shows usage relationships between types.
+Unresolved types are missing from the diagram.
+<img src="Vlans.networklayer.NetworkLayerVlans-usage.png" ismap="yes" usemap="#usage-diagram"/><map name="usage-diagram"><area shape="rect" href="Vlans.networklayer.NetworkLayerVlans.html" title="Compound Module NetworkLayerVlans" alt="" coords="265,80,399,107">
+<area shape="rect" href="ned.IdealChannel.html" title="Channel IdealChannel" alt="" coords="5,155,101,181">
+<area shape="rect" href="../../../inetmanet/doc/neddoc/inet.networklayer.ipv4.ErrorHandling.html" title="Simple Module ErrorHandling" alt="" coords="125,155,224,181">
+<area shape="rect" href="../../../inetmanet/doc/neddoc/inet.networklayer.ipv4.IP.html" title="Simple Module IP" alt="" coords="248,155,320,181">
+<area shape="rect" href="../../../inetmanet/doc/neddoc/inet.networklayer.ipv4.IGMP.html" title="Compound Module IGMP" alt="" coords="344,155,416,181">
+<area shape="rect" href="../../../inetmanet/doc/neddoc/inet.networklayer.ipv4.ICMP.html" title="Simple Module ICMP" alt="" coords="440,155,512,181">
+<area shape="rect" href="Vlans.networklayer.ARP_Vlans.html" title="Simple Module ARP_Vlans" alt="" coords="536,155,624,181">
+<area shape="rect" href="Vlans.nodes.StandardVlanHost.html" title="Compound Module StandardVlanHost" alt="" coords="269,5,395,32">
+</map>
+<h3 class="subtitle">Inheritance diagram:</h3>
+<p>The following diagram shows inheritance relationships for this type.
+Unresolved types are missing from the diagram.
+<img src="Vlans.networklayer.NetworkLayerVlans-inheritance.png" ismap="yes" usemap="#inheritance-diagram"/><map name="inheritance-diagram"><area shape="rect" href="Vlans.networklayer.NetworkLayerVlans.html" title="Compound Module NetworkLayerVlans" alt="" coords="5,5,139,32">
+</map>
+<h3 class="subtitle">Used in compound modules:</h3>
+<p>If a module type shows up more than once, that means it has been defined in more than one NED file.</p>
+<table>
+<tr>
+   <td>
+      <a href="Vlans.nodes.StandardVlanHost.html">StandardVlanHost</a>
+      <i> (compound&nbsp;module)</i>
+   </td>
+   <td>
+
+<p>IP host with TCP, UDP layers and applications.</p>
+   </td>
+</tr>
+</table>
+<h3 class="subtitle">Parameters:</h3>
+<table class="paramtable">
+   <tr>
+      <th>Name</th>
+      <th>Type</th>
+      <th>Default value</th>
+      <th>Description</th>
+   </tr>
+<tr class="local">
+   <td width="150">proxyARP</td>
+   <td width="100">
+      <i>bool</i>
+   </td>
+   <td width="120">true</td>
+   <td>   </td>
+</tr>
+</table>
+<h3 class="subtitle">Properties:</h3>
+<table class="paramtable">
+   <tr>
+      <th>Name</th>
+      <th>Value</th>
+      <th>Description</th>
+   </tr>
+<tr>
+   <td width="150">display</td>
+   <td width="100"><i>i=block/fork</i></td>
+   <td></td>
+</tr>
+</table>
+<h3 class="subtitle">Gates:</h3>
+<table class="paramtable">
+   <tr>
+      <th>Name</th>
+      <th>Direction</th>
+      <th>Size</th>
+      <th>Description</th>
+   </tr>
+<tr class="local">
+   <td width="150">ifIn [ ]</xsl:if></td>
+   <td width="100"><i>input</i></td>
+   <td width="50"></td>   <td></td>
+</tr>
+<tr class="local">
+   <td width="150">tcpIn</xsl:if></td>
+   <td width="100"><i>input</i></td>
+   <td width="50"></td>   <td></td>
+</tr>
+<tr class="local">
+   <td width="150">udpIn</xsl:if></td>
+   <td width="100"><i>input</i></td>
+   <td width="50"></td>   <td></td>
+</tr>
+<tr class="local">
+   <td width="150">sctpIn</xsl:if></td>
+   <td width="100"><i>input</i></td>
+   <td width="50"></td>   <td>
+<p>I.R.</p>
+</td>
+</tr>
+<tr class="local">
+   <td width="150">rsvpIn</xsl:if></td>
+   <td width="100"><i>input</i></td>
+   <td width="50"></td>   <td></td>
+</tr>
+<tr class="local">
+   <td width="150">ospfIn</xsl:if></td>
+   <td width="100"><i>input</i></td>
+   <td width="50"></td>   <td></td>
+</tr>
+<tr class="local">
+   <td width="150">pingIn</xsl:if></td>
+   <td width="100"><i>input</i></td>
+   <td width="50"></td>   <td></td>
+</tr>
+<tr class="local">
+   <td width="150">MANETIn</xsl:if></td>
+   <td width="100"><i>input</i></td>
+   <td width="50"></td>   <td></td>
+</tr>
+<tr class="local">
+   <td width="150">ifOut [ ]</xsl:if></td>
+   <td width="100"><i>output</i></td>
+   <td width="50"></td>   <td></td>
+</tr>
+<tr class="local">
+   <td width="150">TCPOut</xsl:if></td>
+   <td width="100"><i>output</i></td>
+   <td width="50"></td>   <td></td>
+</tr>
+<tr class="local">
+   <td width="150">udpOut</xsl:if></td>
+   <td width="100"><i>output</i></td>
+   <td width="50"></td>   <td></td>
+</tr>
+<tr class="local">
+   <td width="150">sctpOut</xsl:if></td>
+   <td width="100"><i>output</i></td>
+   <td width="50"></td>   <td>
+<p>I.R.</p>
+</td>
+</tr>
+<tr class="local">
+   <td width="150">rsvpOut</xsl:if></td>
+   <td width="100"><i>output</i></td>
+   <td width="50"></td>   <td></td>
+</tr>
+<tr class="local">
+   <td width="150">ospfOut</xsl:if></td>
+   <td width="100"><i>output</i></td>
+   <td width="50"></td>   <td></td>
+</tr>
+<tr class="local">
+   <td width="150">pingOut</xsl:if></td>
+   <td width="100"><i>output</i></td>
+   <td width="50"></td>   <td></td>
+</tr>
+<tr class="local">
+   <td width="150">MANETOut</xsl:if></td>
+   <td width="100"><i>output</i></td>
+   <td width="50"></td>   <td>
+</td>
+</tr>
+</table>
+<h3 class="subtitle">Unassigned submodule parameters:</h3>
+<table class="paramtable">
+   <tr>
+      <th>Name</th>
+      <th>Type</th>
+      <th>Default value</th>
+      <th>Description</th>
+   </tr>
+<tr>
+   <td><a href="../../../inetmanet/doc/neddoc/inet.networklayer.ipv4.IP.html">ip</a>.procDelay</td>
+   <td width="100">
+      <i>double</i>
+   </td>
+   <td width="120">0s</td>
+   <td>   </td>
+</tr>
+<tr>
+   <td><a href="Vlans.networklayer.ARP_Vlans.html">arp_vlans</a>.retryTimeout</td>
+   <td width="100">
+      <i>double</i>
+   </td>
+   <td width="120">1s</td>
+   <td>
+<p>number seconds ARP waits between retries to resolve an IP address</p>
+   </td>
+</tr>
+<tr>
+   <td><a href="Vlans.networklayer.ARP_Vlans.html">arp_vlans</a>.retryCount</td>
+   <td width="100">
+      <i>int</i>
+   </td>
+   <td width="120">3</td>
+   <td>
+<p>number of times ARP will attempt to resolve an IP address</p>
+   </td>
+</tr>
+<tr>
+   <td><a href="Vlans.networklayer.ARP_Vlans.html">arp_vlans</a>.cacheTimeout</td>
+   <td width="100">
+      <i>double</i>
+   </td>
+   <td width="120">120s</td>
+   <td>
+<p>number seconds unused entries in the cache will time out</p>
+   </td>
+</tr>
+<tr>
+   <td><a href="Vlans.networklayer.ARP_Vlans.html">arp_vlans</a>.globalARP</td>
+   <td width="100">
+      <i>bool</i>
+   </td>
+   <td width="120">false</td>
+   <td>   </td>
+</tr>
+</table>
+<h3 class="subtitle">Source code:</h3>
+<pre class="src"><span style="color: #808080; font-style: italic; ">//
+// Network layer of an \IP node.
+//
+// Interfaces to transport layer: TCP, UDP, echo/ping, RSVP
+//
+</span><span style="color: #800000; font-weight: bold; ">module</span><span style="color: #000000; "> </span><span style="color: #000000; ">NetworkLayerVlans</span><span style="color: #000000; ">
+{
+    </span><span style="color: #800000; font-weight: bold; ">parameters</span><span style="color: #000000; ">:
+        </span><span style="color: #000080; font-weight: bold; ">bool</span><span style="color: #000000; "> </span><span style="color: #000000; ">proxyARP</span><span style="color: #000000; "> = </span><span style="color: #800000; font-weight: bold; ">default</span><span style="color: #000000; ">(</span><span style="color: #008000; ">true</span><span style="color: #000000; ">);
+        </span><span style="color: #000000; font-weight: bold; ">@display</span><span style="color: #000000; ">(</span><span style="color: #008000; ">&quot;i=block/fork&quot;</span><span style="color: #000000; ">);
+    </span><span style="color: #800000; font-weight: bold; ">gates</span><span style="color: #000000; ">:
+        </span><span style="color: #000080; font-weight: bold; ">input</span><span style="color: #000000; "> </span><span style="color: #000000; ">ifIn</span><span style="color: #000000; ">[];
+        </span><span style="color: #000080; font-weight: bold; ">input</span><span style="color: #000000; "> </span><span style="color: #000000; ">tcpIn</span><span style="color: #000000; ">;
+        </span><span style="color: #000080; font-weight: bold; ">input</span><span style="color: #000000; "> </span><span style="color: #000000; ">udpIn</span><span style="color: #000000; ">;
+        </span><span style="color: #000080; font-weight: bold; ">input</span><span style="color: #000000; "> </span><span style="color: #000000; ">sctpIn</span><span style="color: #000000; ">;   </span><span style="color: #808080; font-style: italic; ">//I.R.
+</span><span style="color: #000000; ">        </span><span style="color: #000080; font-weight: bold; ">input</span><span style="color: #000000; "> </span><span style="color: #000000; ">rsvpIn</span><span style="color: #000000; ">;
+        </span><span style="color: #000080; font-weight: bold; ">input</span><span style="color: #000000; "> </span><span style="color: #000000; ">ospfIn</span><span style="color: #000000; ">;
+        </span><span style="color: #000080; font-weight: bold; ">input</span><span style="color: #000000; "> </span><span style="color: #000000; ">pingIn</span><span style="color: #000000; ">;
+        </span><span style="color: #000080; font-weight: bold; ">input</span><span style="color: #000000; "> </span><span style="color: #000000; ">MANETIn</span><span style="color: #000000; ">;
+        </span><span style="color: #000080; font-weight: bold; ">output</span><span style="color: #000000; "> </span><span style="color: #000000; ">ifOut</span><span style="color: #000000; ">[];
+        </span><span style="color: #000080; font-weight: bold; ">output</span><span style="color: #000000; "> </span><span style="color: #000000; ">TCPOut</span><span style="color: #000000; ">;
+        </span><span style="color: #000080; font-weight: bold; ">output</span><span style="color: #000000; "> </span><span style="color: #000000; ">udpOut</span><span style="color: #000000; ">;
+        </span><span style="color: #000080; font-weight: bold; ">output</span><span style="color: #000000; "> </span><span style="color: #000000; ">sctpOut</span><span style="color: #000000; ">; </span><span style="color: #808080; font-style: italic; ">//I.R.
+</span><span style="color: #000000; ">        </span><span style="color: #000080; font-weight: bold; ">output</span><span style="color: #000000; "> </span><span style="color: #000000; ">rsvpOut</span><span style="color: #000000; ">;
+        </span><span style="color: #000080; font-weight: bold; ">output</span><span style="color: #000000; "> </span><span style="color: #000000; ">ospfOut</span><span style="color: #000000; ">;
+        </span><span style="color: #000080; font-weight: bold; ">output</span><span style="color: #000000; "> </span><span style="color: #000000; ">pingOut</span><span style="color: #000000; ">;
+        </span><span style="color: #000080; font-weight: bold; ">output</span><span style="color: #000000; "> </span><span style="color: #000000; ">MANETOut</span><span style="color: #000000; ">;
+
+    </span><span style="color: #800000; font-weight: bold; ">submodules</span><span style="color: #000000; ">:
+        </span><span style="color: #000000; ">ip</span><span style="color: #000000; ">: </span><span style="color: #000000; ">IP</span><span style="color: #000000; "> {
+            </span><span style="color: #800000; font-weight: bold; ">parameters</span><span style="color: #000000; ">:
+                </span><span style="color: #000000; ">timeToLive</span><span style="color: #000000; "> = </span><span style="color: #008000; ">32</span><span style="color: #000000; ">;
+                </span><span style="color: #000000; ">multicastTimeToLive</span><span style="color: #000000; "> = </span><span style="color: #008000; ">32</span><span style="color: #000000; ">;
+                </span><span style="color: #000000; ">fragmentTimeout</span><span style="color: #000000; "> = </span><span style="color: #008000; ">60</span><span style="color: #000000; ">s</span><span style="color: #000000; ">;
+                </span><span style="color: #000000; ">protocolMapping</span><span style="color: #000000; "> = </span><span style="color: #008000; ">&quot;6:0,17:1,1:2,2:3,46:4,89:5,132:6,254:7,135:7&quot;</span><span style="color: #000000; ">;
+                </span><span style="color: #000000; font-weight: bold; ">@display</span><span style="color: #000000; ">(</span><span style="color: #008000; ">&quot;p=85,95;q=queue&quot;</span><span style="color: #000000; ">);
+            </span><span style="color: #800000; font-weight: bold; ">gates</span><span style="color: #000000; ">:
+                </span><span style="color: #000000; ">transportIn</span><span style="color: #000000; ">[</span><span style="color: #008000; ">8</span><span style="color: #000000; ">];
+                </span><span style="color: #000000; ">transportOut</span><span style="color: #000000; ">[</span><span style="color: #008000; ">8</span><span style="color: #000000; ">];
+                </span><span style="color: #000000; ">queueIn</span><span style="color: #000000; ">[</span><span style="color: #800000; font-weight: bold; ">sizeof</span><span style="color: #000000; ">(</span><span style="color: #000000; ">ifIn</span><span style="color: #000000; ">)];
+        }
+        </span><span style="color: #000000; ">arp_vlans</span><span style="color: #000000; ">: </span><span style="color: #000000; ">ARP_Vlans</span><span style="color: #000000; "> {
+            </span><span style="color: #800000; font-weight: bold; ">parameters</span><span style="color: #000000; ">:
+                </span><span style="color: #000000; ">proxyARP</span><span style="color: #000000; "> = </span><span style="color: #000000; ">proxyARP</span><span style="color: #000000; ">;
+                </span><span style="color: #000000; font-weight: bold; ">@display</span><span style="color: #000000; ">(</span><span style="color: #008000; ">&quot;p=163,206;q=pendingQueue&quot;</span><span style="color: #000000; ">);
+            </span><span style="color: #800000; font-weight: bold; ">gates</span><span style="color: #000000; ">:
+                </span><span style="color: #000000; ">nicOut</span><span style="color: #000000; ">[</span><span style="color: #800000; font-weight: bold; ">sizeof</span><span style="color: #000000; ">(</span><span style="color: #000000; ">ifOut</span><span style="color: #000000; ">)];
+        }
+        </span><span style="color: #000000; ">icmp</span><span style="color: #000000; ">: </span><span style="color: #000000; ">ICMP</span><span style="color: #000000; "> {
+            </span><span style="color: #800000; font-weight: bold; ">parameters</span><span style="color: #000000; ">:
+                </span><span style="color: #000000; font-weight: bold; ">@display</span><span style="color: #000000; ">(</span><span style="color: #008000; ">&quot;p=160,63&quot;</span><span style="color: #000000; ">);
+        }
+        </span><span style="color: #000000; ">igmp</span><span style="color: #000000; ">: </span><span style="color: #000000; ">IGMP</span><span style="color: #000000; "> {
+            </span><span style="color: #800000; font-weight: bold; ">parameters</span><span style="color: #000000; ">:
+                </span><span style="color: #000000; font-weight: bold; ">@display</span><span style="color: #000000; ">(</span><span style="color: #008000; ">&quot;p=160,122&quot;</span><span style="color: #000000; ">);
+        }
+        </span><span style="color: #000000; ">errorHandling</span><span style="color: #000000; ">: </span><span style="color: #000000; ">ErrorHandling</span><span style="color: #000000; "> {
+            </span><span style="color: #800000; font-weight: bold; ">parameters</span><span style="color: #000000; ">:
+                </span><span style="color: #000000; font-weight: bold; ">@display</span><span style="color: #000000; ">(</span><span style="color: #008000; ">&quot;p=239,63&quot;</span><span style="color: #000000; ">);
+        }
+    </span><span style="color: #800000; font-weight: bold; ">connections</span><span style="color: #000000; "> </span><span style="color: #800000; font-weight: bold; ">allowunconnected</span><span style="color: #000000; ">:
+        </span><span style="color: #808080; font-style: italic; ">// transport Layer
+</span><span style="color: #000000; ">        </span><span style="color: #000000; ">ip</span><span style="color: #000000; ">.</span><span style="color: #000000; ">transportOut</span><span style="color: #000000; ">[</span><span style="color: #008000; ">0</span><span style="color: #000000; ">] </span><span style="color: #800000; font-weight: bold; ">--&gt;</span><span style="color: #000000; "> </span><span style="color: #000000; ">TCPOut</span><span style="color: #000000; ">;
+        </span><span style="color: #000000; ">ip</span><span style="color: #000000; ">.</span><span style="color: #000000; ">transportIn</span><span style="color: #000000; ">[</span><span style="color: #008000; ">0</span><span style="color: #000000; ">] </span><span style="color: #800000; font-weight: bold; ">&lt;--</span><span style="color: #000000; "> </span><span style="color: #000000; ">tcpIn</span><span style="color: #000000; ">;
+
+        </span><span style="color: #000000; ">ip</span><span style="color: #000000; ">.</span><span style="color: #000000; ">transportOut</span><span style="color: #000000; ">[</span><span style="color: #008000; ">1</span><span style="color: #000000; ">] </span><span style="color: #800000; font-weight: bold; ">--&gt;</span><span style="color: #000000; "> </span><span style="color: #000000; ">udpOut</span><span style="color: #000000; ">;
+        </span><span style="color: #000000; ">ip</span><span style="color: #000000; ">.</span><span style="color: #000000; ">transportIn</span><span style="color: #000000; ">[</span><span style="color: #008000; ">1</span><span style="color: #000000; ">] </span><span style="color: #800000; font-weight: bold; ">&lt;--</span><span style="color: #000000; "> </span><span style="color: #000000; ">udpIn</span><span style="color: #000000; ">;
+
+        </span><span style="color: #000000; ">ip</span><span style="color: #000000; ">.</span><span style="color: #000000; ">transportOut</span><span style="color: #000000; ">[</span><span style="color: #008000; ">2</span><span style="color: #000000; ">] </span><span style="color: #800000; font-weight: bold; ">--&gt;</span><span style="color: #000000; "> </span><span style="color: #000000; ">icmp</span><span style="color: #000000; ">.</span><span style="color: #000000; ">localIn</span><span style="color: #000000; ">;
+        </span><span style="color: #000000; ">ip</span><span style="color: #000000; ">.</span><span style="color: #000000; ">transportIn</span><span style="color: #000000; ">[</span><span style="color: #008000; ">2</span><span style="color: #000000; ">] </span><span style="color: #800000; font-weight: bold; ">&lt;--</span><span style="color: #000000; "> </span><span style="color: #000000; ">icmp</span><span style="color: #000000; ">.</span><span style="color: #000000; ">sendOut</span><span style="color: #000000; ">;
+
+        </span><span style="color: #000000; ">ip</span><span style="color: #000000; ">.</span><span style="color: #000000; ">transportOut</span><span style="color: #000000; ">[</span><span style="color: #008000; ">3</span><span style="color: #000000; ">] </span><span style="color: #800000; font-weight: bold; ">--&gt;</span><span style="color: #000000; "> </span><span style="color: #000000; ">igmp</span><span style="color: #000000; ">.</span><span style="color: #000000; ">localIn</span><span style="color: #000000; ">;
+        </span><span style="color: #000000; ">ip</span><span style="color: #000000; ">.</span><span style="color: #000000; ">transportIn</span><span style="color: #000000; ">[</span><span style="color: #008000; ">3</span><span style="color: #000000; ">] </span><span style="color: #800000; font-weight: bold; ">&lt;--</span><span style="color: #000000; "> </span><span style="color: #000000; ">igmp</span><span style="color: #000000; ">.</span><span style="color: #000000; ">sendOut</span><span style="color: #000000; ">;
+
+        </span><span style="color: #000000; ">ip</span><span style="color: #000000; ">.</span><span style="color: #000000; ">transportOut</span><span style="color: #000000; ">[</span><span style="color: #008000; ">4</span><span style="color: #000000; ">] </span><span style="color: #800000; font-weight: bold; ">--&gt;</span><span style="color: #000000; "> </span><span style="color: #000000; ">rsvpOut</span><span style="color: #000000; ">;
+        </span><span style="color: #000000; ">ip</span><span style="color: #000000; ">.</span><span style="color: #000000; ">transportIn</span><span style="color: #000000; ">[</span><span style="color: #008000; ">4</span><span style="color: #000000; ">] </span><span style="color: #800000; font-weight: bold; ">&lt;--</span><span style="color: #000000; "> </span><span style="color: #000000; ">rsvpIn</span><span style="color: #000000; ">;
+
+        </span><span style="color: #000000; ">ip</span><span style="color: #000000; ">.</span><span style="color: #000000; ">transportOut</span><span style="color: #000000; ">[</span><span style="color: #008000; ">5</span><span style="color: #000000; ">] </span><span style="color: #800000; font-weight: bold; ">--&gt;</span><span style="color: #000000; "> </span><span style="color: #000000; ">ospfOut</span><span style="color: #000000; ">;
+        </span><span style="color: #000000; ">ip</span><span style="color: #000000; ">.</span><span style="color: #000000; ">transportIn</span><span style="color: #000000; ">[</span><span style="color: #008000; ">5</span><span style="color: #000000; ">] </span><span style="color: #800000; font-weight: bold; ">&lt;--</span><span style="color: #000000; "> </span><span style="color: #000000; ">ospfIn</span><span style="color: #000000; ">;
+
+        </span><span style="color: #000000; ">ip</span><span style="color: #000000; ">.</span><span style="color: #000000; ">transportOut</span><span style="color: #000000; ">[</span><span style="color: #008000; ">6</span><span style="color: #000000; ">] </span><span style="color: #800000; font-weight: bold; ">--&gt;</span><span style="color: #000000; "> </span><span style="color: #000000; ">sctpOut</span><span style="color: #000000; ">;     </span><span style="color: #808080; font-style: italic; ">//I.R.
+</span><span style="color: #000000; ">        </span><span style="color: #000000; ">ip</span><span style="color: #000000; ">.</span><span style="color: #000000; ">transportIn</span><span style="color: #000000; ">[</span><span style="color: #008000; ">6</span><span style="color: #000000; ">] </span><span style="color: #800000; font-weight: bold; ">&lt;--</span><span style="color: #000000; "> </span><span style="color: #000000; ">sctpIn</span><span style="color: #000000; ">;
+
+        </span><span style="color: #000000; ">ip</span><span style="color: #000000; ">.</span><span style="color: #000000; ">transportOut</span><span style="color: #000000; ">[</span><span style="color: #008000; ">7</span><span style="color: #000000; ">] </span><span style="color: #800000; font-weight: bold; ">--&gt;</span><span style="color: #000000; "> </span><span style="color: #000000; ">MANETOut</span><span style="color: #000000; ">;
+        </span><span style="color: #000000; ">ip</span><span style="color: #000000; ">.</span><span style="color: #000000; ">transportIn</span><span style="color: #000000; ">[</span><span style="color: #008000; ">7</span><span style="color: #000000; ">] </span><span style="color: #800000; font-weight: bold; ">&lt;--</span><span style="color: #000000; "> </span><span style="color: #000000; ">MANETIn</span><span style="color: #000000; ">;
+
+        </span><span style="color: #000000; ">icmp</span><span style="color: #000000; ">.</span><span style="color: #000000; ">pingOut</span><span style="color: #000000; "> </span><span style="color: #800000; font-weight: bold; ">--&gt;</span><span style="color: #000000; "> </span><span style="color: #000000; ">pingOut</span><span style="color: #000000; ">;
+        </span><span style="color: #000000; ">icmp</span><span style="color: #000000; ">.</span><span style="color: #000000; ">pingIn</span><span style="color: #000000; "> </span><span style="color: #800000; font-weight: bold; ">&lt;--</span><span style="color: #000000; "> </span><span style="color: #000000; ">pingIn</span><span style="color: #000000; ">;
+
+        </span><span style="color: #000000; ">icmp</span><span style="color: #000000; ">.</span><span style="color: #000000; ">errorOut</span><span style="color: #000000; "> </span><span style="color: #800000; font-weight: bold; ">--&gt;</span><span style="color: #000000; "> </span><span style="color: #000000; ">errorHandling</span><span style="color: #000000; ">.</span><span style="color: #000000; ">in</span><span style="color: #000000; ">;
+
+        </span><span style="color: #000000; ">ip</span><span style="color: #000000; ">.</span><span style="color: #000000; ">queueOut</span><span style="color: #000000; "> </span><span style="color: #800000; font-weight: bold; ">--&gt;</span><span style="color: #000000; "> </span><span style="color: #000000; ">arp_vlans</span><span style="color: #000000; ">.</span><span style="color: #000000; ">ipIn</span><span style="color: #000000; ">;
+
+        </span><span style="color: #808080; font-style: italic; ">// L2 interfaces to IP and from ARP
+</span><span style="color: #000000; ">        </span><span style="color: #800000; font-weight: bold; ">for</span><span style="color: #000000; "> </span><span style="color: #000000; ">i</span><span style="color: #000000; ">=</span><span style="color: #008000; ">0</span><span style="color: #000000; ">..</span><span style="color: #800000; font-weight: bold; ">sizeof</span><span style="color: #000000; ">(</span><span style="color: #000000; ">ifOut</span><span style="color: #000000; ">)-</span><span style="color: #008000; ">1</span><span style="color: #000000; "> {
+            </span><span style="color: #000000; ">ifIn</span><span style="color: #000000; ">[</span><span style="color: #000000; ">i</span><span style="color: #000000; ">] </span><span style="color: #800000; font-weight: bold; ">--&gt;</span><span style="color: #000000; "> { </span><span style="color: #000000; font-weight: bold; ">@display</span><span style="color: #000000; ">(</span><span style="color: #008000; ">&quot;m=s&quot;</span><span style="color: #000000; ">); } </span><span style="color: #800000; font-weight: bold; ">--&gt;</span><span style="color: #000000; "> </span><span style="color: #000000; ">ip</span><span style="color: #000000; ">.</span><span style="color: #000000; ">queueIn</span><span style="color: #000000; ">[</span><span style="color: #000000; ">i</span><span style="color: #000000; ">];
+        }
+}
+
+</span></pre>
+   <hr><p class="footer"><a href="http://creativecommons.org/licenses/by-sa/3.0" target="_top"><img src="by-sa.png"></a> This documentation is released under the <a href="http://creativecommons.org/licenses/by-sa/3.0" target="_top">Creative Commons license</a></p>
+   </body>
+</html>

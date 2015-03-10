@@ -1,0 +1,54 @@
+#!/bin/sh
+cd `dirname $0`/..
+INETROOT=`pwd`
+
+echo "[General]
+cpu-time-limit = 3s" >tmp.ini
+
+run() {
+  cd $INETROOT/`dirname $1`
+  echo "
+========================================================
+Running: $1 $2
+
+"
+  $INETROOT/src/run_inet -u Cmdenv -n $INETROOT/src:$INETROOT/examples -c $2 `basename $1` $INETROOT/tmp.ini
+}
+
+run examples/adhoc/aodv_mmap/omnetpp.ini General
+run examples/adhoc/fg80211/omnetpp.ini General
+run examples/adhoc/grid_aodv/omnetpp.ini General
+run examples/adhoc/multiradio/omnetpp.ini NetworkMultiRadioIPv4
+run examples/adhoc/net80211_aodv/omnetpp.ini General
+run examples/adhoc/net80211_aodv_VITA/omnetpp.ini General
+run examples/adhoc/net80211_aodv_VITA_2Radios/omnetpp.ini General
+run examples/adhoc/net80211_control/omnetpp.ini General
+run examples/adhoc/net80211_mesh/omnetpp.ini General
+
+run examples/annotations/omnetpp.ini Ping1
+
+run examples/ethernet/crossed/omnetpp.ini General
+run examples/ethernet/messageAge/omnetpp.ini General
+run examples/ethernet/redundant/omnetpp.ini General
+run examples/ethernet/reference/omnetpp.ini General
+run examples/ethernet/triangle/omnetpp.ini General
+run examples/ethernet/twoSwitch/omnetpp.ini General
+
+run examples/hostautoconf/omnetpp.ini General
+
+# runs only as root with PCAP enabled (change src/makefrag)
+#run examples/sctp/extclient/omnetpp.ini General
+#run examples/sctp/traceroute/omnetpp.ini General
+
+run examples/wireless/dhcp/omnetpp.ini General
+
+run examples/wireless/MultiplesRadios/omnetpp.ini General
+run examples/wireless/lan80211e/omnetpp.ini General
+
+run examples/wireless/WiMAXHandover/omnetpp.ini One
+run examples/wireless/WiMAXQoS/omnetpp.ini config1
+
+run examples/wpan/StarNet/omnetpp.ini General
+run examples/wpan/csma802154/omnetpp.ini General
+run examples/wpan/nodes_random_direct/omnetpp.ini General
+

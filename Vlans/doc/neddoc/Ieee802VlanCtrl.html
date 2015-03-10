@@ -1,0 +1,138 @@
+<html>
+   <head>
+      <link rel="stylesheet" type="text/css" href="style.css" />
+   </head>
+   <body onload="">
+<h2 class="comptitle">Class <i>Ieee802VlanCtrl</i></h2>
+<b>File: <a href="src-linklayer-Ieee802VlanCtrl.msg.html">src/linklayer/Ieee802VlanCtrl.msg</a></b><br/>
+<p>Control structure for communication between LLC and higher layers
+Added interface name though in order for LLC to be able to set
+the vlan id. We extend so we are going to have backwards compatibility
+with the older inet modules, since casting to Ieee802Ctrl will be ok.</p>
+<h3 class="subtitle">Usage diagram:</h3>
+<p>The following diagram shows usage relationships between types.
+Unresolved types are missing from the diagram.
+<img src="Ieee802VlanCtrl-usage.png" ismap="yes" usemap="#usage-diagram"/><map name="usage-diagram"><area shape="rect" href="Ieee802VlanCtrl.html" title="Class Ieee802VlanCtrl" alt="" coords="5,5,117,32">
+</map>
+<h3 class="subtitle">Inheritance diagram:</h3>
+<p>The following diagram shows inheritance relationships for this type.
+Unresolved types are missing from the diagram.
+<img src="Ieee802VlanCtrl-inheritance.png" ismap="yes" usemap="#inheritance-diagram"/><map name="inheritance-diagram"><area shape="rect" href="Ieee802VlanCtrl.html" title="Class Ieee802VlanCtrl" alt="" coords="5,80,117,107">
+<area shape="rect" href="../../../inetmanet/doc/neddoc/Ieee802Ctrl.html" title="Class Ieee802Ctrl" alt="" coords="19,5,104,32">
+</map>
+<h3 class="subtitle">Extends:</h3>
+<table>
+<tr>
+   <td>
+      <a href="../../../inetmanet/doc/neddoc/Ieee802Ctrl.html">Ieee802Ctrl</a>
+      <i> (class)</i>
+   </td>
+   <td>
+
+<p>Control structure for communication between LLC and higher layers</p>
+   </td>
+</tr>
+</table>
+<h3 class="subtitle">Fields:</h3>
+<table class="paramtable">
+   <tr>
+      <th>Name</th>
+      <th>Type</th>
+      <th>Description</th>
+   </tr>
+<tr class="inherited">
+   <td width="150">ssap</td>
+   <td width="100">
+      <i>
+int</i>
+   </td>
+   <td>
+<p>used with IEEE 802 LLC (see EtherFrameWithLLC)</p>
+</td>
+</tr>
+<tr class="inherited">
+   <td width="150">dest</td>
+   <td width="100">
+      <i>
+MACAddress</i>
+   </td>
+   <td>
+<p>dest MAC address</p>
+</td>
+</tr>
+<tr class="inherited">
+   <td width="150">etherType</td>
+   <td width="100">
+      <i>
+int</i>
+   </td>
+   <td>
+<p>used with EthernetIIFrame</p>
+</td>
+</tr>
+<tr class="local">
+   <td width="150">ifName</td>
+   <td width="100">
+      <i>
+string</i>
+   </td>
+   <td>
+<p>Interface name (from routing decision)</p>
+</td>
+</tr>
+<tr class="inherited">
+   <td width="150">src</td>
+   <td width="100">
+      <i>
+MACAddress</i>
+   </td>
+   <td>
+<p>src MAC address (can be left empty when sending)</p>
+</td>
+</tr>
+<tr class="inherited">
+   <td width="150">dsap</td>
+   <td width="100">
+      <i>
+int</i>
+   </td>
+   <td>
+<p>used with IEEE 802 LLC (see EtherFrameWithLLC)</p>
+</td>
+</tr>
+<tr class="inherited">
+   <td width="150">pauseUnits</td>
+   <td width="100">
+      <i>
+int</i>
+   </td>
+   <td>
+<p>used with IEEE802CTRL_SENDPAUSE</p>
+</td>
+</tr>
+<tr class="inherited">
+   <td width="150">inputPort</td>
+   <td width="100">
+      <i>
+int</i>
+   </td>
+   <td>
+<p>convenience field, used between IPv6 and IPv6ND</p>
+</td>
+</tr>
+</table>
+<h3 class="subtitle">Source code:</h3>
+<pre class="src"><span style="color: #808080; font-style: italic; ">//
+// Control structure for communication between LLC and higher layers
+// Added interface name though in order for LLC to be able to set
+// the vlan id. We extend so we are going to have backwards compatibility
+// with the older inet modules, since casting to Ieee802Ctrl will be ok.
+//
+</span><span style="color: #800000; font-weight: bold; ">class</span><span style="color: #000000; "> </span><span style="color: #000000; ">Ieee802VlanCtrl</span><span style="color: #000000; "> </span><span style="color: #800000; font-weight: bold; ">extends</span><span style="color: #000000; "> </span><span style="color: #000000; ">Ieee802Ctrl</span><span style="color: #000000; ">
+{
+    </span><span style="color: #000080; font-weight: bold; ">string</span><span style="color: #000000; "> </span><span style="color: #000000; ">ifName</span><span style="color: #000000; ">;		 </span><span style="color: #808080; font-style: italic; ">// Interface name (from routing decision)
+</span><span style="color: #000000; ">}
+</span></pre>
+   <hr><p class="footer"><a href="http://creativecommons.org/licenses/by-sa/3.0" target="_top"><img src="by-sa.png"></a> This documentation is released under the <a href="http://creativecommons.org/licenses/by-sa/3.0" target="_top">Creative Commons license</a></p>
+   </body>
+</html>

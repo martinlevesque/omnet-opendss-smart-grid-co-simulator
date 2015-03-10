@@ -1,0 +1,14 @@
+# Partial Tkenv config file -- see $HOME/.tkenvrc as well
+inspector "temp" "temp" "2" "670x326+1005+196"
+inspector "ONU.epon_onu.onu_port.mac" "EPON_mac" "3" "820x346+455+413"
+inspector "ONU.epon_onu.onu_port.onuMacCtl" "ONUMacCtl" "3" "1280x742+0+22"
+inspector "temp.epon_olt.epon_OLT_relay.addresstable" "std::map<MACAddress,AddressEntry>" "1" "576x379+4+25"
+inspector "simulation.scheduled-events.req-30-127959" "EtherFrameWithLLC" "1" "460x313+4+694"
+inspector "ONU" "ONU" "2" "666x287+32+472"
+inspector "simulation.scheduled-events.req-30-6-resp-0" "EtherFrameWithLLC" "1" "475x379+801+344"
+inspector "ONU.epon_olt.olt_if.epon_mac" "EPON_mac" "3" "820x346+455+175"
+inspector "simulation.scheduled-events.req-38-128023-resp-0" "EtherFrameWithLLC" "1" "460x313+82+572"
+inspector "simulation.scheduled-events.req-13-5" "EtherFrameWithLLC" "1" "460x313+815+446"
+inspector "temp.pon_Splitter" "PON_Splitter" "1" "460x480+1046+526"
+inspector "temp.epon_olt.epon_OLT_relay.addresstable" "std::map<MACAddress,MACVlanRelayUnitBase::AddressEntry>" "1" "716x379+538+380"
+

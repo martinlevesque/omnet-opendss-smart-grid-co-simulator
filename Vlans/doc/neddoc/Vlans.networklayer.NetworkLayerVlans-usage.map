@@ -1,0 +1,8 @@
+<area shape="rect" href="Vlans.networklayer.NetworkLayerVlans.html" title="Compound Module NetworkLayerVlans" alt="" coords="265,80,399,107">
+<area shape="rect" href="ned.IdealChannel.html" title="Channel IdealChannel" alt="" coords="5,155,101,181">
+<area shape="rect" href="../../../inetmanet/doc/neddoc/inet.networklayer.ipv4.ErrorHandling.html" title="Simple Module ErrorHandling" alt="" coords="125,155,224,181">
+<area shape="rect" href="../../../inetmanet/doc/neddoc/inet.networklayer.ipv4.IP.html" title="Simple Module IP" alt="" coords="248,155,320,181">
+<area shape="rect" href="../../../inetmanet/doc/neddoc/inet.networklayer.ipv4.IGMP.html" title="Compound Module IGMP" alt="" coords="344,155,416,181">
+<area shape="rect" href="../../../inetmanet/doc/neddoc/inet.networklayer.ipv4.ICMP.html" title="Simple Module ICMP" alt="" coords="440,155,512,181">
+<area shape="rect" href="Vlans.networklayer.ARP_Vlans.html" title="Simple Module ARP_Vlans" alt="" coords="536,155,624,181">
+<area shape="rect" href="Vlans.nodes.StandardVlanHost.html" title="Compound Module StandardVlanHost" alt="" coords="269,5,395,32">

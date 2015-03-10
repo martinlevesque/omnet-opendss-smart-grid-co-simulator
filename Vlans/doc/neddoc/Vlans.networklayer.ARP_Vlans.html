@@ -1,0 +1,147 @@
+<html>
+   <head>
+      <link rel="stylesheet" type="text/css" href="style.css" />
+   </head>
+   <body onload="">
+<h2 class="comptitle">Simple Module <i>ARP_Vlans</i></h2>
+<b>Package:</b> Vlans.networklayer<br/><b>File: <a href="src-networklayer-ARP_Vlans.ned.html">src/networklayer/ARP_Vlans.ned</a></b><br/><p><a href="../doxy/classARP__Vlans.html" target="mainframe"><b>C++ definition</b></a></p>
+
+<p>TODO auto-generated module</p>
+<img src="Vlans.networklayer.ARP_Vlans-type.png" ismap="yes" usemap="#type-diagram"/><map name="type-diagram">
+<area shape="rect" href="Vlans.networklayer.ARP_Vlans.html" title="ARP_Vlans" alt="ARP_Vlans" coords="0,0,108,40">
+</map>
+<h3 class="subtitle">Usage diagram:</h3>
+<p>The following diagram shows usage relationships between types.
+Unresolved types are missing from the diagram.
+<img src="Vlans.networklayer.ARP_Vlans-usage.png" ismap="yes" usemap="#usage-diagram"/><map name="usage-diagram"><area shape="rect" href="Vlans.networklayer.ARP_Vlans.html" title="Simple Module ARP_Vlans" alt="" coords="28,80,116,107">
+<area shape="rect" href="Vlans.networklayer.NetworkLayerVlans.html" title="Compound Module NetworkLayerVlans" alt="" coords="5,5,139,32">
+</map>
+<h3 class="subtitle">Inheritance diagram:</h3>
+<p>The following diagram shows inheritance relationships for this type.
+Unresolved types are missing from the diagram.
+<img src="Vlans.networklayer.ARP_Vlans-inheritance.png" ismap="yes" usemap="#inheritance-diagram"/><map name="inheritance-diagram"><area shape="rect" href="Vlans.networklayer.ARP_Vlans.html" title="Simple Module ARP_Vlans" alt="" coords="5,5,93,32">
+</map>
+<h3 class="subtitle">Used in compound modules:</h3>
+<p>If a module type shows up more than once, that means it has been defined in more than one NED file.</p>
+<table>
+<tr>
+   <td>
+      <a href="Vlans.networklayer.NetworkLayerVlans.html">NetworkLayerVlans</a>
+      <i> (compound&nbsp;module)</i>
+   </td>
+   <td>
+
+<p>Network layer of an IP node.</p>
+   </td>
+</tr>
+</table>
+<h3 class="subtitle">Parameters:</h3>
+<table class="paramtable">
+   <tr>
+      <th>Name</th>
+      <th>Type</th>
+      <th>Default value</th>
+      <th>Description</th>
+   </tr>
+<tr class="local">
+   <td width="150">retryTimeout</td>
+   <td width="100">
+      <i>double</i>
+   </td>
+   <td width="120">1s</td>
+   <td>
+<p>number seconds ARP waits between retries to resolve an IP address</p>
+   </td>
+</tr>
+<tr class="local">
+   <td width="150">retryCount</td>
+   <td width="100">
+      <i>int</i>
+   </td>
+   <td width="120">3</td>
+   <td>
+<p>number of times ARP will attempt to resolve an IP address</p>
+   </td>
+</tr>
+<tr class="local">
+   <td width="150">cacheTimeout</td>
+   <td width="100">
+      <i>double</i>
+   </td>
+   <td width="120">120s</td>
+   <td>
+<p>number seconds unused entries in the cache will time out</p>
+   </td>
+</tr>
+<tr class="local">
+   <td width="150">proxyARP</td>
+   <td width="100">
+      <i>bool</i>
+   </td>
+   <td width="120">true</td>
+   <td>
+<p>sets proxy ARP mode (replying to ARP requests for the addresses for which a routing table entry exists)</p>
+   </td>
+</tr>
+<tr class="local">
+   <td width="150">globalARP</td>
+   <td width="100">
+      <i>bool</i>
+   </td>
+   <td width="120">false</td>
+   <td>   </td>
+</tr>
+</table>
+<h3 class="subtitle">Properties:</h3>
+<table class="paramtable">
+   <tr>
+      <th>Name</th>
+      <th>Value</th>
+      <th>Description</th>
+   </tr>
+<tr>
+   <td width="150">display</td>
+   <td width="100"><i>i=block/layer</i></td>
+   <td></td>
+</tr>
+</table>
+<h3 class="subtitle">Gates:</h3>
+<table class="paramtable">
+   <tr>
+      <th>Name</th>
+      <th>Direction</th>
+      <th>Size</th>
+      <th>Description</th>
+   </tr>
+<tr class="local">
+   <td width="150">ipIn</xsl:if></td>
+   <td width="100"><i>input</i></td>
+   <td width="50"></td>   <td></td>
+</tr>
+<tr class="local">
+   <td width="150">nicOut [ ]</xsl:if></td>
+   <td width="100"><i>output</i></td>
+   <td width="50"></td>   <td></td>
+</tr>
+</table>
+<h3 class="subtitle">Source code:</h3>
+<pre class="src"><span style="color: #808080; font-style: italic; ">//
+// TODO auto-generated module
+//
+</span><span style="color: #800000; font-weight: bold; ">simple</span><span style="color: #000000; "> </span><span style="color: #000000; ">ARP_Vlans</span><span style="color: #000000; ">
+{
+    </span><span style="color: #800000; font-weight: bold; ">parameters</span><span style="color: #000000; ">:
+        </span><span style="color: #000080; font-weight: bold; ">double</span><span style="color: #000000; "> </span><span style="color: #000000; ">retryTimeout</span><span style="color: #000000; "> </span><span style="color: #000000; font-weight: bold; ">@unit</span><span style="color: #000000; ">(</span><span style="color: #008000; ">&quot;s&quot;</span><span style="color: #000000; ">) = </span><span style="color: #800000; font-weight: bold; ">default</span><span style="color: #000000; ">(</span><span style="color: #008000; ">1</span><span style="color: #000000; ">s</span><span style="color: #000000; ">); </span><span style="color: #808080; font-style: italic; ">// number seconds ARP waits between retries to resolve an \IP address
+</span><span style="color: #000000; ">        </span><span style="color: #000080; font-weight: bold; ">int</span><span style="color: #000000; "> </span><span style="color: #000000; ">retryCount</span><span style="color: #000000; "> = </span><span style="color: #800000; font-weight: bold; ">default</span><span style="color: #000000; ">(</span><span style="color: #008000; ">3</span><span style="color: #000000; ">);   </span><span style="color: #808080; font-style: italic; ">// number of times ARP will attempt to resolve an \IP address
+</span><span style="color: #000000; ">        </span><span style="color: #000080; font-weight: bold; ">double</span><span style="color: #000000; "> </span><span style="color: #000000; ">cacheTimeout</span><span style="color: #000000; "> </span><span style="color: #000000; font-weight: bold; ">@unit</span><span style="color: #000000; ">(</span><span style="color: #008000; ">&quot;s&quot;</span><span style="color: #000000; ">) = </span><span style="color: #800000; font-weight: bold; ">default</span><span style="color: #000000; ">(</span><span style="color: #008000; ">120</span><span style="color: #000000; ">s</span><span style="color: #000000; ">); </span><span style="color: #808080; font-style: italic; ">// number seconds unused entries in the cache will time out
+</span><span style="color: #000000; ">        </span><span style="color: #000080; font-weight: bold; ">bool</span><span style="color: #000000; "> </span><span style="color: #000000; ">proxyARP</span><span style="color: #000000; "> = </span><span style="color: #800000; font-weight: bold; ">default</span><span style="color: #000000; ">(</span><span style="color: #008000; ">true</span><span style="color: #000000; ">);        </span><span style="color: #808080; font-style: italic; ">// sets proxy \ARP mode (replying to \ARP requests for the addresses for which a routing table entry exists)
+</span><span style="color: #000000; ">        </span><span style="color: #000080; font-weight: bold; ">bool</span><span style="color: #000000; "> </span><span style="color: #000000; ">globalARP</span><span style="color: #000000; "> = </span><span style="color: #800000; font-weight: bold; ">default</span><span style="color: #000000; ">(</span><span style="color: #008000; ">false</span><span style="color: #000000; ">);
+        </span><span style="color: #000000; font-weight: bold; ">@display</span><span style="color: #000000; ">(</span><span style="color: #008000; ">&quot;i=block/layer&quot;</span><span style="color: #000000; ">);
+    </span><span style="color: #800000; font-weight: bold; ">gates</span><span style="color: #000000; ">:
+        </span><span style="color: #000080; font-weight: bold; ">input</span><span style="color: #000000; "> </span><span style="color: #000000; ">ipIn</span><span style="color: #000000; ">;
+        </span><span style="color: #000080; font-weight: bold; ">output</span><span style="color: #000000; "> </span><span style="color: #000000; ">nicOut</span><span style="color: #000000; ">[];
+}
+</span></pre>
+   <hr><p class="footer"><a href="http://creativecommons.org/licenses/by-sa/3.0" target="_top"><img src="by-sa.png"></a> This documentation is released under the <a href="http://creativecommons.org/licenses/by-sa/3.0" target="_top">Creative Commons license</a></p>
+   </body>
+</html>
